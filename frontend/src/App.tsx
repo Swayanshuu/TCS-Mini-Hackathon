@@ -15,6 +15,7 @@ import {
 import { api } from "./api";
 import type { DashboardResponse, MetadataResponse, PredictionResponse } from "./types";
 import { KolamToast, TheRingMark } from "./components/FusionMarks";
+import { MessIQChat } from "./components/MessIQChat";
 import { ErrorNotice, LoadingSkeleton, StatusDotText } from "./components/UiPrimitives";
 import { OverviewPage } from "./pages/OverviewPage";
 import { MealPredictorPage } from "./pages/MealPredictorPage";
@@ -214,6 +215,7 @@ export function App() {
       {toast && (
         <KolamToast title={toast.title} subtitle={toast.subtitle} onClose={() => setToast(null)} />
       )}
+      <MessIQChat activePage={activeTab} />
     </div>
   );
 }

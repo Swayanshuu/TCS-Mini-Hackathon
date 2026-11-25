@@ -1,4 +1,5 @@
 import type {
+  ChatResponse,
   DashboardResponse,
   DatasetResponse,
   EvaluationResponse,
@@ -84,4 +85,10 @@ export const api = {
     });
     return `${API_BASE}/api/datasets/${name}/export?${sp.toString()}`;
   },
+  chat: (message: string, context?: Record<string, unknown>) =>
+    fetchJson<ChatResponse>("/api/chat", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ message, context }),
+    }),
 };

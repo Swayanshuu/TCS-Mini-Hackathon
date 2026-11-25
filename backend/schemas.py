@@ -25,3 +25,8 @@ class PredictionRequest(BaseModel):
         if clean not in ("Breakfast", "Lunch", "Dinner"):
             raise ValueError("meal_type must be one of: Breakfast, Lunch, Dinner")
         return clean
+
+
+class ChatRequest(BaseModel):
+    message: str = Field(..., min_length=1, max_length=600)
+    context: Optional[dict] = None

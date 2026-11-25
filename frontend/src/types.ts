@@ -340,3 +340,31 @@ export interface DatasetResponse {
   };
   stats: Record<string, unknown>;
 }
+
+export interface ChatTrace {
+  tool: string;
+  detail: string;
+  ms: number;
+}
+
+export interface ChatCard {
+  type: "metrics" | "table";
+  title: string;
+  items?: Array<{ label: string; value: string }>;
+  headers?: string[];
+  rows?: Array<{
+    col1: string;
+    col2: string;
+    col3: string;
+    col4: string;
+    risk: RiskLevel;
+  }>;
+}
+
+export interface ChatResponse {
+  intent: string;
+  reply: string;
+  traces: ChatTrace[];
+  cards: ChatCard[];
+  suggestions: string[];
+}

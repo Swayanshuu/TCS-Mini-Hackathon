@@ -21,7 +21,8 @@ if str(ROOT_DIR) not in sys.path:
     sys.path.insert(0, str(ROOT_DIR))
 
 from backend.database import init_db, list_predictions, save_prediction
-from backend.schemas import PredictionRequest
+from backend.schemas import ChatRequest, PredictionRequest
+from ml.chatbot import process_chat_message
 from ml.pipeline import TrainedArtifacts, predict_for_meal, train_and_evaluate
 
 APP_STATE: Dict[str, Any] = {"artifacts": None}
@@ -291,6 +292,12 @@ def predict(req: PredictionRequest) -> Dict[str, Any]:
         pred_id = save_prediction(result)
         result["prediction_id"] = pred_id
     return result
+
+
+@app.post("/api/chat")
+def chat(req: ChatRequest) -> Dict[str, Any]:
+    art = get_artifacts()
+    return process_chat_message(art, req.message, context=req.context)
 
 
 @app.get("/api/predictions/history")
