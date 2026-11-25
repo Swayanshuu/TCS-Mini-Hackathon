@@ -25,19 +25,20 @@ git pull origin main
 
 > **Requirements:** Python 3.10–3.12 and Node.js 18+
 
-### Windows (One Command)
+### Windows (Double-Click or 1 Command)
 
+Double-click **`run.bat`** in the root folder, or run:
 ```powershell
-powershell -ExecutionPolicy Bypass -File .\start.ps1
+.\run.bat
 ```
 
-### macOS / Linux (One Command)
+### macOS / Linux (1 Command)
 
 ```bash
 chmod +x start.sh && ./start.sh
 ```
 
-Open **`http://127.0.0.1:5173`**
+That automatically creates `.venv`, installs dependencies (cached on repeat runs), trains the ML models if needed, starts FastAPI (`8000`) + Vite (`5173`), and opens **`http://127.0.0.1:5173`** in your browser. *(Pass `--retrain` / `-Retrain` to force re-training.)*
 
 ---
 
