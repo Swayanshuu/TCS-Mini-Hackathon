@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 node_modules/
 frontend/dist/
+.vercel/
 *.tsbuildinfo
 backend/predictions.db
 ml/artifacts/*.pkl
