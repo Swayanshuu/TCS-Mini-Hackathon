@@ -82,6 +82,6 @@ export const api = {
     Object.entries(params).forEach(([k, v]) => {
       if (v !== undefined && v !== null && v !== "") sp.set(k, String(v));
     });
-    return `/api/datasets/${name}/export?${sp.toString()}`;
+    return `${API_BASE}/api/datasets/${name}/export?${sp.toString()}`;
   },
 };
