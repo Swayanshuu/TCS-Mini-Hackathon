@@ -151,6 +151,7 @@ def process_chat_message(
             "steps",
             "where can i",
             "where do i",
+            "where is",
             "how does messiq",
             "how is food",
             "how are food",
@@ -158,32 +159,109 @@ def process_chat_message(
             "calculated",
             "formula",
             "why did you predict",
+            "what does this app",
+            "what features",
+            "what pages",
+            "what tabs",
+            "what is messiq",
+            "dark mode",
+            "/status",
         )
     )
 
     if is_howto:
-        t_step = time.perf_counter()
-        traces.append({"tool": "read_app_guide", "detail": "MessIQ workflows & formulas", "ms": 2})
+        traces.append({"tool": "read_app_guide", "detail": "MessIQ features & workflows", "ms": 2})
 
-        if "predict" in low and ("how" in low or "where" in low or "can i" in low):
+        if any(k in low for k in ("count", "number of students", "user number", "student count", "attendance count")) and "predict" not in low:
+            avg_act = float(jm["actual_students"].mean())
+            min_act = int(jm["actual_students"].min())
+            max_act = int(jm["actual_students"].max())
+            return {
+                "intent": "howto_count_users",
+                "reply": (
+                    "**How to Count or Check Student Attendance in MessIQ:**\n"
+                    "1. **Historical Student Counts:** Open **Dataset Explorer → `meals.csv`** to inspect `expected_students` and `actual_students` for any date/meal (filter by date or meal, then view live `avg`, `min`, `max` stats above the table).\n"
+                    "2. **Trends & Averages:** Open **Overview** (45-day trend & meal averages) or **Food Analytics** (Mon–Sun turnout by Breakfast/Lunch/Dinner).\n"
+                    "3. **Predict Upcoming Student Count:** Open **Meal Predictor** (or ask me e.g. `Predict 2026-08-15 Lunch Rice-Dal`).\n\n"
+                    f"Current dataset snapshot across **1,095 meals**: avg **{avg_act:.1f}** students/meal (min `{min_act}`, max `{max_act}`)."
+                ),
+                "traces": traces,
+                "cards": [
+                    {
+                        "type": "metrics",
+                        "title": "Attendance Count Summary",
+                        "items": [
+                            {"label": "Total Meals", "value": f"{len(jm):,}"},
+                            {"label": "Avg Turnout", "value": f"{avg_act:.1f} students"},
+                            {"label": "Min / Max", "value": f"{min_act} / {max_act}"},
+                            {"label": "Date Range", "value": f"{jm['date_str'].min()} → {jm['date_str'].max()}"},
+                        ],
+                    }
+                ],
+                "suggestions": [
+                    "How to predict user attendance at a date?",
+                    "What happened on 2025-11-14?",
+                    "Predict tomorrow's Lunch with Rice-Paneer",
+                ],
+            }
+
+        if (
+            ("predict" in low or "attendance" in low)
+            and ("how" in low or "where" in low or "can i" in low)
+            and "calculated" not in low
+            and "formula" not in low
+            and "why did you" not in low
+        ):
             return {
                 "intent": "howto_predict",
                 "reply": (
-                    "**How to Predict a Meal in MessIQ:**\n"
+                    "**How to Predict User/Student Attendance at Any Date:**\n"
                     "1. Open **Meal Predictor** from the left sidebar.\n"
-                    "2. Pick **any Date** (past 2025 to compare with actuals, or any future date in 2026+).\n"
-                    "3. Select **Breakfast, Lunch, or Dinner** and pick a **Menu** (or type a custom menu name).\n"
-                    "4. Adjust the **Safety Buffer** slider (`0.95×` lean to `1.25×` cautious, default `1.05×`).\n"
-                    "5. *(Optional)* Open **Calendar Overrides** to mark Holiday, Exam Period, Vacation, or a Campus Event.\n"
-                    "6. Click **Predict & Save** to generate turnout, unit-wise food quantities, risk alerts, and save to the log.\n\n"
-                    "**Or ask me right here in chat**, e.g. `Predict 2026-08-15 Lunch Rice-Dal at 1.10x buffer`."
+                    "2. Select **any Date** (historical 2025 dates compare against actual outcomes; 2026+ dates auto-detect weekends and fixed holidays).\n"
+                    "3. Choose **Breakfast, Lunch, or Dinner** and pick a **Menu** (or type a custom menu).\n"
+                    "4. Adjust **Safety Buffer** (`0.95×` to `1.25×`, default `1.05×`).\n"
+                    "5. *(Optional)* Expand **Calendar Overrides** to set Holiday, Exam Period, Vacation, or Campus Event.\n"
+                    "6. Click **Predict & Save** to see predicted attendance, unit-wise food quantities, risk alerts, and similar past meals.\n\n"
+                    "**Or ask directly in chat:** e.g. `Predict 2026-08-15 Lunch Rice-Dal at 1.10x buffer`."
                 ),
                 "traces": traces,
                 "cards": [],
                 "suggestions": [
                     "Predict tomorrow's Lunch with Rice-Paneer",
+                    "How to count user number?",
                     "How are food quantities calculated?",
-                    "How do I export CSV data?",
+                ],
+            }
+
+        if any(k in low for k in ("waste", "shortage", "alert", "risk")) and ("how" in low or "where" in low):
+            return {
+                "intent": "howto_waste",
+                "reply": (
+                    "**How to Check Food Waste & Shortage Alerts:**\n"
+                    "- Open **Waste Analysis** in the sidebar to switch between **Items**, **Menus**, **Shortages** (zero-leftover depletions), and **Unusual Days** (Z-score spikes/drops), plus **Calendar Regime** impacts.\n"
+                    "- You can also ask me directly: `Which food items waste the most?` or `Show food shortage alerts`."
+                ),
+                "traces": traces,
+                "cards": [],
+                "suggestions": [
+                    "Which food items waste the most?",
+                    "Show food shortage alerts",
+                ],
+            }
+
+        if "dark mode" in low or "theme" in low or "/status" in low:
+            return {
+                "intent": "howto_settings",
+                "reply": (
+                    "**Theme & Health Endpoint:**\n"
+                    "- **Dark / Light Theme:** Click the **Charcoal Dark / Fusion Paper Light** toggle at the bottom-left of the sidebar.\n"
+                    "- **Backend Health:** Check `GET /status` (or `/api/health`) on the backend server to verify model & SQLite status."
+                ),
+                "traces": traces,
+                "cards": [],
+                "suggestions": [
+                    "What does this app contain?",
+                    "How can I predict a meal?",
                 ],
             }
 

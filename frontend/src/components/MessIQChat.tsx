@@ -16,10 +16,10 @@ interface Message {
 }
 
 const INITIAL_SUGGESTIONS = [
-  "How can I predict a meal?",
+  "How to count user number?",
+  "How to predict user attendance at a date?",
   "Predict tomorrow's Lunch with Rice-Paneer",
-  "Which food items have the highest wastage?",
-  "How do holidays and exams affect attendance?",
+  "What features does MessIQ have?",
 ];
 
 function renderFormattedText(text: string) {
