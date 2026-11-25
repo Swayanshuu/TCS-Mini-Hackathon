@@ -1,0 +1,444 @@
+@import "tailwindcss";
+
+/* ==========================================================================
+   FUSION 3 DESIGN TOKENS — Paper, Ink, Confetti, Dusk, Meadow, Motion
+   ========================================================================== */
+:root {
+  /* Paper Surfaces */
+  --surface-paper: #ffffff;
+  --surface-subtle: #fafafa;
+  --surface-canvas: #f5f5f5;
+  --surface-sunken: #f0f0f0;
+  --line: #e5e5e5;
+  --line-strong: #d4d4d4;
+
+  /* Ink Scale */
+  --ink-strong: #111111;
+  --ink-body: #262626;
+  --ink-muted: #525252;
+  --ink-faint: #737373;
+  --ink-disabled: #a3a3a3;
+  --action-bg: #111111;
+  --action-fg: #ffffff;
+
+  /* Confetti Triplets (fill / text / tint) */
+  --blue-fill: #1871da;
+  --blue-text: #0c4cbe;
+  --blue-tint: #ebf0f7;
+
+  --green-fill: #1ec072;
+  --green-text: #14804c;
+  --green-tint: #ebf7f1;
+
+  --pink-fill: #f6609f;
+  --pink-text: #d20c5f;
+  --pink-tint: #f8eaf0;
+
+  --yellow-fill: #ffbb38;
+  --yellow-text: #986400;
+  --yellow-tint: #f9f3e9;
+
+  --orange-fill: #ff5500;
+  --orange-text: #c24100;
+  --orange-tint: #f9eee9;
+
+  --violet-fill: #9664d7;
+  --violet-text: #864cd1;
+  --violet-tint: #f0ecf6;
+
+  --red-fill: #dc2626;
+  --red-text: #b91c1c;
+  --red-tint: #fef2f2;
+
+  /* Dusk (AI agents & live prediction runs only) */
+  --dusk-iris: #7b6cff;
+  --dusk-rose: #ff6fa8;
+  --dusk-amber: #ffad4a;
+  --dusk-sky: #4cc3ff;
+
+  /* Meadow Pigments */
+  --meadow-dusk: #2b2470;
+  --meadow-iris: #5b5fe0;
+  --meadow-sky: #8ccaf5;
+  --meadow-mist: #d6ecfb;
+  --meadow-pine: #1d4a24;
+  --meadow-grass: #5aa64a;
+  --meadow-pollen: #d8e87a;
+  --meadow-daisy: #f7d56a;
+
+  /* Motion */
+  --t-fast: 120ms;
+  --t-base: 180ms;
+  --t-panel: 240ms;
+  --t-spring: 320ms;
+  --t-reveal: 600ms;
+  --ease: cubic-bezier(0.2, 0, 0, 1);
+  --ease-arrive: cubic-bezier(0.22, 1, 0.36, 1);
+  --spring-snappy: linear(
+    0, 0.009, 0.035 2.1%, 0.141, 0.281 6.7%, 0.723 12.9%, 0.938 16.7%,
+    1.017, 1.077, 1.107, 1.119 25%, 1.11, 1.084 30%, 1.014 38.2%,
+    0.99 44.5%, 0.986 50%, 1.001 66%, 1
+  );
+  --spring-gentle: linear(
+    0, 0.007, 0.029, 0.064, 0.112, 0.172, 0.242, 0.321, 0.407, 0.497,
+    0.588, 0.677, 0.761, 0.838, 0.905, 0.961, 1.004, 1.036, 1.057, 1.069,
+    1.071, 1.067, 1.058, 1.046, 1.033, 1.021, 1.01, 1.002, 0.997, 0.994, 1
+  );
+}
+
+/* Optional Charcoal Dark Theme (preserving Fusion 3 tokens & contrast) */
+[data-theme="dark"] {
+  --surface-paper: #16181d;
+  --surface-subtle: #1b1e25;
+  --surface-canvas: #0f1115;
+  --surface-sunken: #22262f;
+  --line: #272b35;
+  --line-strong: #373c4a;
+
+  --ink-strong: #f5f6f8;
+  --ink-body: #e2e5ec;
+  --ink-muted: #9ca3af;
+  --ink-faint: #6b7280;
+  --ink-disabled: #4b5563;
+  --action-bg: #f5f6f8;
+  --action-fg: #111111;
+
+  --blue-tint: rgba(24, 113, 218, 0.16);
+  --blue-text: #7db7ff;
+  --green-tint: rgba(30, 192, 114, 0.15);
+  --green-text: #5be3a0;
+  --pink-tint: rgba(246, 96, 159, 0.16);
+  --pink-text: #ff94c0;
+  --yellow-tint: rgba(255, 187, 56, 0.16);
+  --yellow-text: #ffd06b;
+  --orange-tint: rgba(255, 85, 0, 0.16);
+  --orange-text: #ff9966;
+  --violet-tint: rgba(150, 100, 215, 0.17);
+  --violet-text: #c29ff0;
+  --red-tint: rgba(220, 38, 38, 0.18);
+  --red-text: #fca5a5;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--surface-canvas);
+  color: var(--ink-body);
+  font-family: "Inter", system-ui, -apple-system, sans-serif;
+  font-size: 14px;
+  line-height: 1.43;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Fusion 3 Typography Scale: Satoshi 500 >= 30px, Inter < 30px */
+.f3-metric {
+  font-family: "Satoshi", "Inter", system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  font-variant-numeric: tabular-nums;
+  color: var(--ink-strong);
+}
+
+.f3-display {
+  font-family: "Satoshi", "Inter", system-ui, sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.05;
+  letter-spacing: -0.03em;
+  color: var(--ink-strong);
+}
+
+.f3-title {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.28;
+  letter-spacing: -0.015em;
+  color: var(--ink-strong);
+}
+
+.f3-heading {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.35;
+  color: var(--ink-strong);
+}
+
+.f3-subheading {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 1.45;
+  color: var(--ink-strong);
+}
+
+.f3-label {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 1.2;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+}
+
+.f3-caption {
+  font-family: "Inter", system-ui, sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.45;
+  color: var(--ink-faint);
+}
+
+.f3-mono {
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Hairline Paper Surfaces (Borders, not heavy shadows) */
+.f3-card {
+  background-color: var(--surface-paper);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.f3-card-subtle {
+  background-color: var(--surface-subtle);
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+/* Measured Controls: xs(24) sm(28) md(32) lg(36) + optical -2px icon padding + press 0.97 */
+.f3-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: 500;
+  line-height: 1;
+  white-space: nowrap;
+  cursor: pointer;
+  user-select: none;
+  transition:
+    transform var(--t-fast) var(--ease),
+    background-color var(--t-fast) var(--ease),
+    border-color var(--t-fast) var(--ease),
+    color var(--t-fast) var(--ease);
+}
+
+.f3-btn:active:not(:disabled) {
+  transform: scale(0.97);
+}
+
+.f3-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.f3-btn-xs {
+  height: 24px;
+  padding: 0 8px;
+  gap: 4px;
+  font-size: 12px;
+}
+
+.f3-btn-sm {
+  height: 28px;
+  padding: 0 10px;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.f3-btn-md {
+  height: 32px;
+  padding: 0 12px;
+  gap: 6px;
+  font-size: 13px;
+}
+
+.f3-btn-md.has-leading-icon {
+  padding-left: 10px;
+}
+
+.f3-btn-sm.has-leading-icon {
+  padding-left: 8px;
+}
+
+.f3-btn-lg {
+  height: 36px;
+  padding: 0 14px;
+  gap: 8px;
+  font-size: 14px;
+}
+
+.f3-btn-lg.has-leading-icon {
+  padding-left: 12px;
+}
+
+.f3-btn-primary {
+  background-color: var(--action-bg);
+  color: var(--action-fg);
+  border: 1px solid var(--action-bg);
+}
+
+.f3-btn-primary:hover:not(:disabled) {
+  opacity: 0.9;
+}
+
+.f3-btn-outline {
+  background-color: var(--surface-paper);
+  color: var(--ink-strong);
+  border: 1px solid var(--line);
+}
+
+.f3-btn-outline:hover:not(:disabled) {
+  background-color: var(--surface-subtle);
+  border-color: var(--line-strong);
+}
+
+.f3-btn-ghost {
+  background-color: transparent;
+  color: var(--ink-muted);
+  border: 1px solid transparent;
+}
+
+.f3-btn-ghost:hover:not(:disabled) {
+  background-color: var(--surface-sunken);
+  color: var(--ink-strong);
+}
+
+.f3-input {
+  height: 32px;
+  padding: 0 10px;
+  background-color: var(--surface-paper);
+  color: var(--ink-strong);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  font-size: 13px;
+  outline: none;
+  transition: border-color var(--t-fast) var(--ease), box-shadow var(--t-fast) var(--ease);
+}
+
+.f3-input:focus {
+  border-color: var(--blue-fill);
+  box-shadow: 0 0 0 3px rgba(24, 113, 218, 0.14);
+}
+
+/* One-carrier-per-meaning 20px capsule badge (NO dot inside) */
+.f3-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 20px;
+  padding: 0 8px;
+  border-radius: 9999px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+
+/* Neutral count pill */
+.f3-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 18px;
+  min-width: 20px;
+  padding: 0 6px;
+  border-radius: 9999px;
+  background-color: var(--surface-sunken);
+  color: var(--ink-muted);
+  font-size: 11px;
+  font-weight: 500;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Dusk AI Signals (only active during prediction / AI reasoning runs) */
+@keyframes dusk-spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes dusk-shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+@keyframes dusk-pulse {
+  0%, 100% { transform: scale(1); opacity: 0.95; }
+  50% { transform: scale(1.25); opacity: 0.55; }
+}
+
+@keyframes bayer-arrival {
+  0% { background-color: var(--blue-tint); }
+  100% { background-color: transparent; }
+}
+
+@keyframes chime-ring {
+  0% { transform: scale(0.95); opacity: 0.75; }
+  100% { transform: scale(1.45); opacity: 0; }
+}
+
+.dusk-dreamline {
+  height: 2px;
+  background: linear-gradient(90deg, var(--dusk-iris), var(--dusk-rose), var(--dusk-amber), var(--dusk-sky), var(--dusk-iris));
+  background-size: 200% 100%;
+  animation: dusk-shimmer 2.2s linear infinite;
+}
+
+.dusk-thinking-text {
+  background: linear-gradient(90deg, var(--dusk-iris), var(--dusk-rose), var(--dusk-amber), var(--dusk-iris));
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: dusk-shimmer 2.4s linear infinite;
+}
+
+.dusk-ember {
+  width: 6px;
+  height: 6px;
+  border-radius: 9999px;
+  background: linear-gradient(135deg, var(--dusk-iris), var(--dusk-rose), var(--dusk-amber));
+  animation: dusk-pulse 1.4s ease-in-out infinite;
+}
+
+.dusk-halo-active {
+  border-color: var(--dusk-iris) !important;
+  box-shadow: 0 0 0 1px var(--dusk-rose), 0 0 18px -4px rgba(123, 108, 255, 0.35);
+}
+
+.f3-arrival-wash {
+  animation: bayer-arrival 1.6s var(--ease-arrive) forwards;
+}
+
+/* Bandhani x Sashiko stitched border */
+.f3-sashiko-zone {
+  border: 1.5px dashed var(--line-strong);
+  border-radius: 10px;
+  background-image: repeating-linear-gradient(
+    90deg,
+    transparent 0,
+    transparent 6px,
+    rgba(17, 17, 17, 0.03) 6px,
+    rgba(17, 17, 17, 0.03) 10px
+  );
+}
+
+/* Reduced motion compliance */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}

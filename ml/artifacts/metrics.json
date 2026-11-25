@@ -1,0 +1,112 @@
+{
+  "selected_model": "Gradient Boosting Regressor",
+  "models": {
+    "Random Forest Regressor": {
+      "mae": 22.87,
+      "rmse": 34.44,
+      "r2": 0.8974,
+      "mape": 7.1
+    },
+    "Gradient Boosting Regressor": {
+      "mae": 21.04,
+      "rmse": 33.78,
+      "r2": 0.9012,
+      "mape": 6.5
+    }
+  },
+  "split": {
+    "total_meals": 1095,
+    "train_meals": 876,
+    "test_meals": 219,
+    "train_start": "2025-01-01",
+    "train_end": "2025-10-19",
+    "test_start": "2025-10-20",
+    "test_end": "2025-12-31"
+  },
+  "feature_importances": [
+    {
+      "feature": "same_day_type_avg_actual",
+      "importance": 61.93
+    },
+    {
+      "feature": "prev_meal_actual",
+      "importance": 18.97
+    },
+    {
+      "feature": "day_type",
+      "importance": 12.33
+    },
+    {
+      "feature": "menu",
+      "importance": 2.17
+    },
+    {
+      "feature": "same_menu_avg_actual",
+      "importance": 2.07
+    },
+    {
+      "feature": "same_meal_avg_actual",
+      "importance": 0.38
+    },
+    {
+      "feature": "month_sin",
+      "importance": 0.3
+    },
+    {
+      "feature": "rolling_7d_same_meal_avg",
+      "importance": 0.28
+    },
+    {
+      "feature": "prev_day_same_meal_actual",
+      "importance": 0.27
+    },
+    {
+      "feature": "recent_trend_delta",
+      "importance": 0.27
+    },
+    {
+      "feature": "same_weekday_avg_actual",
+      "importance": 0.2
+    },
+    {
+      "feature": "rolling_3d_overall_avg",
+      "importance": 0.2
+    },
+    {
+      "feature": "is_exam_period_int",
+      "importance": 0.17
+    },
+    {
+      "feature": "meal_type",
+      "importance": 0.16
+    },
+    {
+      "feature": "is_holiday_int",
+      "importance": 0.11
+    },
+    {
+      "feature": "has_event_int",
+      "importance": 0.06
+    },
+    {
+      "feature": "month_cos",
+      "importance": 0.06
+    },
+    {
+      "feature": "day_of_week",
+      "importance": 0.03
+    },
+    {
+      "feature": "dow_sin",
+      "importance": 0.03
+    },
+    {
+      "feature": "is_weekend_int",
+      "importance": 0.01
+    },
+    {
+      "feature": "dow_cos",
+      "importance": 0.01
+    }
+  ]
+}

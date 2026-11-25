@@ -1,0 +1,9 @@
+{
+  "include": ["ml", "backend"],
+  "exclude": ["**/__pycache__", ".venv", "frontend"],
+  "venvPath": ".",
+  "venv": ".venv",
+  "pythonVersion": "3.12",
+  "extraPaths": ["."],
+  "reportMissingImports": "warning"
+}
