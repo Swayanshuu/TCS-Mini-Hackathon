@@ -1,0 +1,1096 @@
+date,meal_type,menu,expected_students,actual_students,day_type
+2025-01-01,Breakfast,Idli,417,439,regular
+2025-01-01,Lunch,Chole Rice,465,484,regular
+2025-01-01,Dinner,Khichdi,436,399,regular
+2025-01-02,Breakfast,Poha,424,414,regular
+2025-01-02,Lunch,Chole Rice,459,479,regular
+2025-01-02,Dinner,Roti-Paneer,416,439,regular
+2025-01-03,Breakfast,Paratha,440,485,regular
+2025-01-03,Lunch,Rice-Paneer,458,512,regular
+2025-01-03,Dinner,Roti-Paneer,427,451,regular
+2025-01-04,Breakfast,Paratha,317,326,weekend
+2025-01-04,Lunch,Rice-Paneer,343,373,weekend
+2025-01-04,Dinner,Rice-Egg Curry,331,358,weekend
+2025-01-05,Breakfast,Paratha,321,339,weekend
+2025-01-05,Lunch,Rice-Dal,367,391,weekend
+2025-01-05,Dinner,Rice-Egg Curry,342,371,weekend
+2025-01-06,Breakfast,Idli,425,424,regular
+2025-01-06,Lunch,Rice-Paneer,456,494,regular
+2025-01-06,Dinner,Khichdi,425,407,regular
+2025-01-07,Breakfast,Idli,454,465,regular
+2025-01-07,Lunch,Rice-Dal,461,478,regular
+2025-01-07,Dinner,Roti-Sabzi,405,397,regular
+2025-01-08,Breakfast,Paratha,435,472,regular
+2025-01-08,Lunch,Rice-Paneer,461,522,regular
+2025-01-08,Dinner,Roti-Paneer,399,409,regular
+2025-01-09,Breakfast,Idli,419,429,regular
+2025-01-09,Lunch,Chole Rice,450,474,regular
+2025-01-09,Dinner,Roti-Sabzi,443,439,regular
+2025-01-10,Breakfast,Idli,418,425,regular
+2025-01-10,Lunch,Chole Rice,460,482,regular
+2025-01-10,Dinner,Rice-Egg Curry,409,438,regular
+2025-01-11,Breakfast,Paratha,338,357,weekend
+2025-01-11,Lunch,Rice-Paneer,337,370,weekend
+2025-01-11,Dinner,Roti-Sabzi,334,341,weekend
+2025-01-12,Breakfast,Idli,345,336,weekend
+2025-01-12,Lunch,Rice-Paneer,346,379,weekend
+2025-01-12,Dinner,Rice-Egg Curry,333,370,weekend
+2025-01-13,Breakfast,Poha,427,428,regular
+2025-01-13,Lunch,Rice-Paneer,440,456,regular
+2025-01-13,Dinner,Roti-Sabzi,421,415,regular
+2025-01-14,Breakfast,Idli,414,398,regular
+2025-01-14,Lunch,Rice-Paneer,448,486,regular
+2025-01-14,Dinner,Khichdi,430,394,regular
+2025-01-15,Breakfast,Upma,439,429,regular
+2025-01-15,Lunch,Rice-Paneer,484,540,regular
+2025-01-15,Dinner,Roti-Paneer,397,411,regular
+2025-01-16,Breakfast,Idli,437,458,regular
+2025-01-16,Lunch,Rice-Dal,459,457,regular
+2025-01-16,Dinner,Roti-Paneer,420,461,regular
+2025-01-17,Breakfast,Paratha,427,490,regular
+2025-01-17,Lunch,Veg Pulao,464,500,regular
+2025-01-17,Dinner,Roti-Paneer,443,476,regular
+2025-01-18,Breakfast,Poha,332,346,weekend
+2025-01-18,Lunch,Rice-Paneer,346,389,weekend
+2025-01-18,Dinner,Roti-Sabzi,318,297,weekend
+2025-01-19,Breakfast,Paratha,346,376,weekend
+2025-01-19,Lunch,Chole Rice,356,375,weekend
+2025-01-19,Dinner,Roti-Paneer,352,362,weekend
+2025-01-20,Breakfast,Paratha,412,451,regular
+2025-01-20,Lunch,Chole Rice,447,468,regular
+2025-01-20,Dinner,Roti-Sabzi,419,411,regular
+2025-01-21,Breakfast,Paratha,468,501,regular
+2025-01-21,Lunch,Veg Pulao,470,523,regular
+2025-01-21,Dinner,Rice-Egg Curry,447,470,regular
+2025-01-22,Breakfast,Idli,424,433,regular
+2025-01-22,Lunch,Rice-Dal,444,454,regular
+2025-01-22,Dinner,Rice-Egg Curry,419,447,regular
+2025-01-23,Breakfast,Upma,425,390,regular
+2025-01-23,Lunch,Chole Rice,475,482,regular
+2025-01-23,Dinner,Roti-Sabzi,410,383,regular
+2025-01-24,Breakfast,Paratha,455,495,regular
+2025-01-24,Lunch,Rice-Dal,472,482,regular
+2025-01-24,Dinner,Roti-Sabzi,449,446,regular
+2025-01-25,Breakfast,Paratha,351,387,weekend
+2025-01-25,Lunch,Chole Rice,353,352,weekend
+2025-01-25,Dinner,Roti-Sabzi,333,311,weekend
+2025-01-26,Breakfast,Idli,117,119,holiday
+2025-01-26,Lunch,Chole Rice,139,134,holiday
+2025-01-26,Dinner,Roti-Paneer,131,138,holiday
+2025-01-27,Breakfast,Poha,430,447,regular
+2025-01-27,Lunch,Chole Rice,467,504,regular
+2025-01-27,Dinner,Roti-Sabzi,427,440,regular
+2025-01-28,Breakfast,Upma,431,416,regular
+2025-01-28,Lunch,Rice-Dal,462,463,regular
+2025-01-28,Dinner,Roti-Sabzi,436,428,regular
+2025-01-29,Breakfast,Paratha,422,443,regular
+2025-01-29,Lunch,Chole Rice,463,478,regular
+2025-01-29,Dinner,Roti-Sabzi,419,435,regular
+2025-01-30,Breakfast,Idli,450,477,regular
+2025-01-30,Lunch,Veg Pulao,487,514,regular
+2025-01-30,Dinner,Khichdi,435,386,regular
+2025-01-31,Breakfast,Paratha,442,442,regular
+2025-01-31,Lunch,Rice-Paneer,457,530,regular
+2025-01-31,Dinner,Rice-Egg Curry,418,463,regular
+2025-02-01,Breakfast,Poha,336,319,weekend
+2025-02-01,Lunch,Veg Pulao,357,373,weekend
+2025-02-01,Dinner,Roti-Paneer,335,368,weekend
+2025-02-02,Breakfast,Paratha,347,360,weekend
+2025-02-02,Lunch,Rice-Paneer,370,411,weekend
+2025-02-02,Dinner,Roti-Sabzi,349,344,weekend
+2025-02-03,Breakfast,Poha,426,438,regular
+2025-02-03,Lunch,Rice-Dal,461,462,regular
+2025-02-03,Dinner,Khichdi,447,406,regular
+2025-02-04,Breakfast,Paratha,436,452,regular
+2025-02-04,Lunch,Rice-Dal,470,471,regular
+2025-02-04,Dinner,Rice-Egg Curry,431,458,regular
+2025-02-05,Breakfast,Paratha,445,467,regular
+2025-02-05,Lunch,Rice-Dal,466,467,regular
+2025-02-05,Dinner,Roti-Paneer,426,453,regular
+2025-02-06,Breakfast,Poha,456,457,regular
+2025-02-06,Lunch,Veg Pulao,473,507,regular
+2025-02-06,Dinner,Roti-Paneer,429,477,regular
+2025-02-07,Breakfast,Poha,471,493,regular
+2025-02-07,Lunch,Veg Pulao,467,499,regular
+2025-02-07,Dinner,Khichdi,434,407,regular
+2025-02-08,Breakfast,Poha,362,349,weekend
+2025-02-08,Lunch,Rice-Paneer,392,435,weekend
+2025-02-08,Dinner,Rice-Egg Curry,352,380,weekend
+2025-02-09,Breakfast,Idli,350,354,weekend
+2025-02-09,Lunch,Chole Rice,379,382,weekend
+2025-02-09,Dinner,Roti-Sabzi,347,358,weekend
+2025-02-10,Breakfast,Paratha,441,486,regular
+2025-02-10,Lunch,Rice-Paneer,484,528,regular
+2025-02-10,Dinner,Roti-Sabzi,403,404,regular
+2025-02-11,Breakfast,Upma,435,383,regular
+2025-02-11,Lunch,Veg Pulao,475,500,regular
+2025-02-11,Dinner,Roti-Paneer,435,472,regular
+2025-02-12,Breakfast,Upma,443,428,regular
+2025-02-12,Lunch,Rice-Paneer,471,540,regular
+2025-02-12,Dinner,Rice-Egg Curry,460,501,regular
+2025-02-13,Breakfast,Upma,446,415,regular
+2025-02-13,Lunch,Rice-Paneer,451,512,regular
+2025-02-13,Dinner,Rice-Egg Curry,437,474,regular
+2025-02-14,Breakfast,Idli,426,443,regular
+2025-02-14,Lunch,Rice-Dal,464,471,regular
+2025-02-14,Dinner,Rice-Egg Curry,430,471,regular
+2025-02-15,Breakfast,Paratha,356,385,weekend
+2025-02-15,Lunch,Chole Rice,373,385,weekend
+2025-02-15,Dinner,Khichdi,350,314,weekend
+2025-02-16,Breakfast,Poha,340,346,weekend
+2025-02-16,Lunch,Veg Pulao,376,390,weekend
+2025-02-16,Dinner,Rice-Egg Curry,351,379,weekend
+2025-02-17,Breakfast,Idli,448,463,regular
+2025-02-17,Lunch,Veg Pulao,459,474,regular
+2025-02-17,Dinner,Roti-Sabzi,448,443,regular
+2025-02-18,Breakfast,Paratha,415,428,regular
+2025-02-18,Lunch,Veg Pulao,464,487,regular
+2025-02-18,Dinner,Khichdi,457,409,regular
+2025-02-19,Breakfast,Upma,459,429,regular
+2025-02-19,Lunch,Rice-Dal,459,450,regular
+2025-02-19,Dinner,Roti-Paneer,423,439,regular
+2025-02-20,Breakfast,Upma,442,428,regular
+2025-02-20,Lunch,Rice-Dal,437,448,regular
+2025-02-20,Dinner,Khichdi,434,418,regular
+2025-02-21,Breakfast,Poha,444,441,regular
+2025-02-21,Lunch,Veg Pulao,472,491,regular
+2025-02-21,Dinner,Roti-Paneer,436,479,regular
+2025-02-22,Breakfast,Idli,342,335,weekend
+2025-02-22,Lunch,Chole Rice,356,364,weekend
+2025-02-22,Dinner,Roti-Paneer,368,381,weekend
+2025-02-23,Breakfast,Upma,344,304,weekend
+2025-02-23,Lunch,Veg Pulao,352,367,weekend
+2025-02-23,Dinner,Roti-Sabzi,316,293,weekend
+2025-02-24,Breakfast,Poha,444,416,regular
+2025-02-24,Lunch,Rice-Paneer,476,522,regular
+2025-02-24,Dinner,Rice-Egg Curry,457,507,regular
+2025-02-25,Breakfast,Idli,424,431,regular
+2025-02-25,Lunch,Rice-Paneer,477,515,regular
+2025-02-25,Dinner,Rice-Egg Curry,446,489,regular
+2025-02-26,Breakfast,Upma,441,400,regular
+2025-02-26,Lunch,Veg Pulao,472,484,regular
+2025-02-26,Dinner,Khichdi,447,392,regular
+2025-02-27,Breakfast,Poha,438,436,regular
+2025-02-27,Lunch,Rice-Dal,468,468,regular
+2025-02-27,Dinner,Roti-Paneer,444,481,regular
+2025-02-28,Breakfast,Idli,431,441,regular
+2025-02-28,Lunch,Chole Rice,488,497,regular
+2025-02-28,Dinner,Roti-Sabzi,441,424,regular
+2025-03-01,Breakfast,Idli,345,363,examination
+2025-03-01,Lunch,Rice-Paneer,396,429,examination
+2025-03-01,Dinner,Roti-Sabzi,364,374,examination
+2025-03-02,Breakfast,Idli,353,350,examination
+2025-03-02,Lunch,Rice-Dal,398,405,examination
+2025-03-02,Dinner,Roti-Sabzi,362,320,examination
+2025-03-03,Breakfast,Paratha,338,379,examination
+2025-03-03,Lunch,Rice-Paneer,401,425,examination
+2025-03-03,Dinner,Roti-Paneer,327,345,examination
+2025-03-04,Breakfast,Idli,366,365,examination
+2025-03-04,Lunch,Chole Rice,375,396,examination
+2025-03-04,Dinner,Rice-Egg Curry,365,371,examination
+2025-03-05,Breakfast,Poha,360,362,examination
+2025-03-05,Lunch,Chole Rice,389,403,examination
+2025-03-05,Dinner,Rice-Egg Curry,354,369,examination
+2025-03-06,Breakfast,Upma,355,341,examination
+2025-03-06,Lunch,Rice-Paneer,351,389,examination
+2025-03-06,Dinner,Rice-Egg Curry,342,373,examination
+2025-03-07,Breakfast,Idli,365,362,examination
+2025-03-07,Lunch,Rice-Dal,371,354,examination
+2025-03-07,Dinner,Khichdi,353,321,examination
+2025-03-08,Breakfast,Poha,369,374,examination
+2025-03-08,Lunch,Veg Pulao,388,419,examination
+2025-03-08,Dinner,Rice-Egg Curry,333,351,examination
+2025-03-09,Breakfast,Upma,370,359,examination
+2025-03-09,Lunch,Rice-Paneer,375,413,examination
+2025-03-09,Dinner,Khichdi,351,327,examination
+2025-03-10,Breakfast,Upma,369,338,examination
+2025-03-10,Lunch,Rice-Dal,371,374,examination
+2025-03-10,Dinner,Rice-Egg Curry,363,407,examination
+2025-03-11,Breakfast,Poha,368,369,examination
+2025-03-11,Lunch,Chole Rice,386,400,examination
+2025-03-11,Dinner,Khichdi,332,303,examination
+2025-03-12,Breakfast,Poha,358,363,examination
+2025-03-12,Lunch,Rice-Paneer,386,423,examination
+2025-03-12,Dinner,Roti-Sabzi,363,382,examination
+2025-03-13,Breakfast,Paratha,363,381,examination
+2025-03-13,Lunch,Rice-Paneer,385,437,examination
+2025-03-13,Dinner,Roti-Sabzi,370,369,examination
+2025-03-14,Breakfast,Upma,358,342,examination
+2025-03-14,Lunch,Veg Pulao,360,396,examination
+2025-03-14,Dinner,Khichdi,362,347,examination
+2025-03-15,Breakfast,Idli,358,358,examination
+2025-03-15,Lunch,Rice-Paneer,389,444,examination
+2025-03-15,Dinner,Roti-Paneer,372,412,examination
+2025-03-16,Breakfast,Idli,368,379,examination
+2025-03-16,Lunch,Rice-Dal,359,357,examination
+2025-03-16,Dinner,Khichdi,359,316,examination
+2025-03-17,Breakfast,Upma,371,379,examination
+2025-03-17,Lunch,Chole Rice,381,367,examination
+2025-03-17,Dinner,Roti-Sabzi,365,350,examination
+2025-03-18,Breakfast,Poha,349,344,examination
+2025-03-18,Lunch,Veg Pulao,364,389,examination
+2025-03-18,Dinner,Rice-Egg Curry,346,366,examination
+2025-03-19,Breakfast,Paratha,392,416,examination
+2025-03-19,Lunch,Rice-Paneer,364,389,examination
+2025-03-19,Dinner,Roti-Sabzi,390,378,examination
+2025-03-20,Breakfast,Upma,378,348,examination
+2025-03-20,Lunch,Rice-Paneer,380,434,examination
+2025-03-20,Dinner,Khichdi,359,339,examination
+2025-03-21,Breakfast,Paratha,456,509,regular
+2025-03-21,Lunch,Chole Rice,464,497,regular
+2025-03-21,Dinner,Roti-Paneer,446,474,regular
+2025-03-22,Breakfast,Poha,325,322,weekend
+2025-03-22,Lunch,Rice-Paneer,360,410,weekend
+2025-03-22,Dinner,Roti-Paneer,345,374,weekend
+2025-03-23,Breakfast,Upma,325,304,weekend
+2025-03-23,Lunch,Chole Rice,368,399,weekend
+2025-03-23,Dinner,Roti-Paneer,347,389,weekend
+2025-03-24,Breakfast,Paratha,444,484,regular
+2025-03-24,Lunch,Rice-Paneer,477,533,regular
+2025-03-24,Dinner,Khichdi,437,416,regular
+2025-03-25,Breakfast,Poha,440,418,regular
+2025-03-25,Lunch,Veg Pulao,464,490,regular
+2025-03-25,Dinner,Roti-Sabzi,449,455,regular
+2025-03-26,Breakfast,Idli,443,476,regular
+2025-03-26,Lunch,Veg Pulao,463,494,regular
+2025-03-26,Dinner,Rice-Egg Curry,429,460,regular
+2025-03-27,Breakfast,Idli,465,485,regular
+2025-03-27,Lunch,Chole Rice,468,502,regular
+2025-03-27,Dinner,Rice-Egg Curry,437,477,regular
+2025-03-28,Breakfast,Upma,449,421,regular
+2025-03-28,Lunch,Chole Rice,484,490,regular
+2025-03-28,Dinner,Khichdi,418,371,regular
+2025-03-29,Breakfast,Upma,365,333,weekend
+2025-03-29,Lunch,Rice-Dal,354,359,weekend
+2025-03-29,Dinner,Roti-Paneer,350,366,weekend
+2025-03-30,Breakfast,Paratha,360,396,weekend
+2025-03-30,Lunch,Veg Pulao,387,402,weekend
+2025-03-30,Dinner,Rice-Egg Curry,338,356,weekend
+2025-03-31,Breakfast,Poha,458,468,regular
+2025-03-31,Lunch,Rice-Dal,465,459,regular
+2025-03-31,Dinner,Rice-Egg Curry,443,466,regular
+2025-04-01,Breakfast,Poha,352,358,examination
+2025-04-01,Lunch,Rice-Dal,396,388,examination
+2025-04-01,Dinner,Roti-Paneer,346,389,examination
+2025-04-02,Breakfast,Idli,351,346,examination
+2025-04-02,Lunch,Rice-Paneer,357,377,examination
+2025-04-02,Dinner,Roti-Sabzi,360,359,examination
+2025-04-03,Breakfast,Upma,378,356,examination
+2025-04-03,Lunch,Rice-Dal,401,401,examination
+2025-04-03,Dinner,Khichdi,380,337,examination
+2025-04-04,Breakfast,Paratha,369,382,examination
+2025-04-04,Lunch,Rice-Dal,381,372,examination
+2025-04-04,Dinner,Roti-Sabzi,366,373,examination
+2025-04-05,Breakfast,Poha,390,375,examination
+2025-04-05,Lunch,Veg Pulao,386,421,examination
+2025-04-05,Dinner,Roti-Paneer,355,398,examination
+2025-04-06,Breakfast,Idli,373,404,examination
+2025-04-06,Lunch,Rice-Paneer,395,458,examination
+2025-04-06,Dinner,Roti-Paneer,352,372,examination
+2025-04-07,Breakfast,Idli,370,372,examination
+2025-04-07,Lunch,Veg Pulao,370,396,examination
+2025-04-07,Dinner,Roti-Sabzi,350,345,examination
+2025-04-08,Breakfast,Idli,364,370,examination
+2025-04-08,Lunch,Rice-Paneer,382,420,examination
+2025-04-08,Dinner,Roti-Sabzi,373,355,examination
+2025-04-09,Breakfast,Upma,374,338,examination
+2025-04-09,Lunch,Chole Rice,371,402,examination
+2025-04-09,Dinner,Roti-Sabzi,366,360,examination
+2025-04-10,Breakfast,Paratha,356,383,examination
+2025-04-10,Lunch,Rice-Paneer,391,421,examination
+2025-04-10,Dinner,Roti-Paneer,370,402,examination
+2025-04-11,Breakfast,Idli,388,403,examination
+2025-04-11,Lunch,Chole Rice,367,373,examination
+2025-04-11,Dinner,Roti-Paneer,341,378,examination
+2025-04-12,Breakfast,Poha,370,358,examination
+2025-04-12,Lunch,Chole Rice,367,372,examination
+2025-04-12,Dinner,Rice-Egg Curry,349,391,examination
+2025-04-13,Breakfast,Upma,364,351,examination
+2025-04-13,Lunch,Rice-Paneer,387,406,examination
+2025-04-13,Dinner,Rice-Egg Curry,342,380,examination
+2025-04-14,Breakfast,Paratha,368,401,examination
+2025-04-14,Lunch,Rice-Paneer,398,433,examination
+2025-04-14,Dinner,Roti-Sabzi,377,364,examination
+2025-04-15,Breakfast,Upma,340,306,examination
+2025-04-15,Lunch,Rice-Dal,376,388,examination
+2025-04-15,Dinner,Khichdi,364,340,examination
+2025-04-16,Breakfast,Idli,371,388,examination
+2025-04-16,Lunch,Rice-Dal,384,376,examination
+2025-04-16,Dinner,Roti-Paneer,364,390,examination
+2025-04-17,Breakfast,Paratha,371,388,examination
+2025-04-17,Lunch,Rice-Dal,388,394,examination
+2025-04-17,Dinner,Roti-Sabzi,343,338,examination
+2025-04-18,Breakfast,Paratha,368,399,examination
+2025-04-18,Lunch,Veg Pulao,382,408,examination
+2025-04-18,Dinner,Roti-Paneer,349,361,examination
+2025-04-19,Breakfast,Poha,370,380,examination
+2025-04-19,Lunch,Chole Rice,357,347,examination
+2025-04-19,Dinner,Rice-Egg Curry,354,395,examination
+2025-04-20,Breakfast,Idli,383,390,examination
+2025-04-20,Lunch,Rice-Paneer,386,420,examination
+2025-04-20,Dinner,Rice-Egg Curry,381,420,examination
+2025-04-21,Breakfast,Idli,426,445,regular
+2025-04-21,Lunch,Veg Pulao,477,490,regular
+2025-04-21,Dinner,Rice-Egg Curry,445,494,regular
+2025-04-22,Breakfast,Upma,463,435,regular
+2025-04-22,Lunch,Chole Rice,491,508,regular
+2025-04-22,Dinner,Rice-Egg Curry,430,470,regular
+2025-04-23,Breakfast,Poha,449,433,regular
+2025-04-23,Lunch,Rice-Dal,482,478,regular
+2025-04-23,Dinner,Roti-Sabzi,447,429,regular
+2025-04-24,Breakfast,Idli,449,469,regular
+2025-04-24,Lunch,Chole Rice,476,505,regular
+2025-04-24,Dinner,Roti-Sabzi,441,416,regular
+2025-04-25,Breakfast,Idli,437,450,regular
+2025-04-25,Lunch,Veg Pulao,488,529,regular
+2025-04-25,Dinner,Roti-Sabzi,442,424,regular
+2025-04-26,Breakfast,Upma,350,321,weekend
+2025-04-26,Lunch,Veg Pulao,382,397,weekend
+2025-04-26,Dinner,Roti-Paneer,360,384,weekend
+2025-04-27,Breakfast,Upma,357,344,weekend
+2025-04-27,Lunch,Chole Rice,361,379,weekend
+2025-04-27,Dinner,Roti-Sabzi,313,290,weekend
+2025-04-28,Breakfast,Idli,438,439,regular
+2025-04-28,Lunch,Rice-Paneer,486,525,regular
+2025-04-28,Dinner,Roti-Sabzi,440,428,regular
+2025-04-29,Breakfast,Poha,432,441,regular
+2025-04-29,Lunch,Rice-Dal,487,490,regular
+2025-04-29,Dinner,Roti-Sabzi,427,437,regular
+2025-04-30,Breakfast,Paratha,422,467,regular
+2025-04-30,Lunch,Rice-Dal,467,452,regular
+2025-04-30,Dinner,Khichdi,445,415,regular
+2025-05-01,Breakfast,Paratha,174,187,summer_vacation
+2025-05-01,Lunch,Veg Pulao,179,211,summer_vacation
+2025-05-01,Dinner,Roti-Sabzi,175,171,summer_vacation
+2025-05-02,Breakfast,Upma,167,162,summer_vacation
+2025-05-02,Lunch,Rice-Paneer,174,203,summer_vacation
+2025-05-02,Dinner,Roti-Paneer,150,149,summer_vacation
+2025-05-03,Breakfast,Paratha,150,161,summer_vacation
+2025-05-03,Lunch,Rice-Paneer,186,196,summer_vacation
+2025-05-03,Dinner,Rice-Egg Curry,174,174,summer_vacation
+2025-05-04,Breakfast,Upma,155,140,summer_vacation
+2025-05-04,Lunch,Rice-Paneer,182,215,summer_vacation
+2025-05-04,Dinner,Roti-Sabzi,134,119,summer_vacation
+2025-05-05,Breakfast,Idli,165,151,summer_vacation
+2025-05-05,Lunch,Rice-Dal,161,134,summer_vacation
+2025-05-05,Dinner,Rice-Egg Curry,164,188,summer_vacation
+2025-05-06,Breakfast,Paratha,173,189,summer_vacation
+2025-05-06,Lunch,Chole Rice,177,200,summer_vacation
+2025-05-06,Dinner,Roti-Paneer,138,139,summer_vacation
+2025-05-07,Breakfast,Poha,155,142,summer_vacation
+2025-05-07,Lunch,Chole Rice,182,186,summer_vacation
+2025-05-07,Dinner,Roti-Sabzi,170,181,summer_vacation
+2025-05-08,Breakfast,Poha,165,157,summer_vacation
+2025-05-08,Lunch,Rice-Paneer,167,198,summer_vacation
+2025-05-08,Dinner,Khichdi,160,147,summer_vacation
+2025-05-09,Breakfast,Paratha,171,170,summer_vacation
+2025-05-09,Lunch,Chole Rice,175,183,summer_vacation
+2025-05-09,Dinner,Roti-Sabzi,176,171,summer_vacation
+2025-05-10,Breakfast,Poha,171,184,summer_vacation
+2025-05-10,Lunch,Rice-Paneer,176,192,summer_vacation
+2025-05-10,Dinner,Roti-Sabzi,175,172,summer_vacation
+2025-05-11,Breakfast,Upma,158,134,summer_vacation
+2025-05-11,Lunch,Rice-Dal,167,189,summer_vacation
+2025-05-11,Dinner,Khichdi,171,148,summer_vacation
+2025-05-12,Breakfast,Poha,172,181,summer_vacation
+2025-05-12,Lunch,Veg Pulao,164,167,summer_vacation
+2025-05-12,Dinner,Rice-Egg Curry,182,174,summer_vacation
+2025-05-13,Breakfast,Poha,160,164,summer_vacation
+2025-05-13,Lunch,Rice-Dal,181,167,summer_vacation
+2025-05-13,Dinner,Roti-Sabzi,169,170,summer_vacation
+2025-05-14,Breakfast,Idli,173,174,summer_vacation
+2025-05-14,Lunch,Veg Pulao,156,141,summer_vacation
+2025-05-14,Dinner,Rice-Egg Curry,175,202,summer_vacation
+2025-05-15,Breakfast,Upma,190,174,summer_vacation
+2025-05-15,Lunch,Chole Rice,169,187,summer_vacation
+2025-05-15,Dinner,Roti-Paneer,172,184,summer_vacation
+2025-05-16,Breakfast,Paratha,187,199,summer_vacation
+2025-05-16,Lunch,Chole Rice,181,202,summer_vacation
+2025-05-16,Dinner,Khichdi,147,122,summer_vacation
+2025-05-17,Breakfast,Idli,134,148,summer_vacation
+2025-05-17,Lunch,Veg Pulao,157,156,summer_vacation
+2025-05-17,Dinner,Roti-Paneer,154,158,summer_vacation
+2025-05-18,Breakfast,Poha,168,171,summer_vacation
+2025-05-18,Lunch,Rice-Paneer,179,186,summer_vacation
+2025-05-18,Dinner,Roti-Sabzi,177,180,summer_vacation
+2025-05-19,Breakfast,Poha,160,164,summer_vacation
+2025-05-19,Lunch,Veg Pulao,164,165,summer_vacation
+2025-05-19,Dinner,Roti-Paneer,176,194,summer_vacation
+2025-05-20,Breakfast,Upma,139,112,summer_vacation
+2025-05-20,Lunch,Chole Rice,173,187,summer_vacation
+2025-05-20,Dinner,Khichdi,164,145,summer_vacation
+2025-05-21,Breakfast,Upma,170,159,summer_vacation
+2025-05-21,Lunch,Rice-Paneer,181,204,summer_vacation
+2025-05-21,Dinner,Khichdi,161,130,summer_vacation
+2025-05-22,Breakfast,Poha,149,137,summer_vacation
+2025-05-22,Lunch,Veg Pulao,177,178,summer_vacation
+2025-05-22,Dinner,Khichdi,166,157,summer_vacation
+2025-05-23,Breakfast,Poha,171,162,summer_vacation
+2025-05-23,Lunch,Chole Rice,180,187,summer_vacation
+2025-05-23,Dinner,Roti-Sabzi,151,139,summer_vacation
+2025-05-24,Breakfast,Upma,181,154,summer_vacation
+2025-05-24,Lunch,Rice-Paneer,193,203,summer_vacation
+2025-05-24,Dinner,Roti-Sabzi,161,159,summer_vacation
+2025-05-25,Breakfast,Upma,147,138,summer_vacation
+2025-05-25,Lunch,Rice-Dal,164,171,summer_vacation
+2025-05-25,Dinner,Roti-Paneer,186,219,summer_vacation
+2025-05-26,Breakfast,Upma,173,164,summer_vacation
+2025-05-26,Lunch,Veg Pulao,181,181,summer_vacation
+2025-05-26,Dinner,Roti-Paneer,169,187,summer_vacation
+2025-05-27,Breakfast,Poha,162,166,summer_vacation
+2025-05-27,Lunch,Rice-Paneer,163,195,summer_vacation
+2025-05-27,Dinner,Khichdi,150,171,summer_vacation
+2025-05-28,Breakfast,Idli,177,174,summer_vacation
+2025-05-28,Lunch,Chole Rice,170,170,summer_vacation
+2025-05-28,Dinner,Roti-Paneer,165,174,summer_vacation
+2025-05-29,Breakfast,Upma,154,125,summer_vacation
+2025-05-29,Lunch,Rice-Dal,166,135,summer_vacation
+2025-05-29,Dinner,Rice-Egg Curry,184,200,summer_vacation
+2025-05-30,Breakfast,Poha,181,185,summer_vacation
+2025-05-30,Lunch,Chole Rice,170,155,summer_vacation
+2025-05-30,Dinner,Khichdi,155,156,summer_vacation
+2025-05-31,Breakfast,Upma,166,152,summer_vacation
+2025-05-31,Lunch,Rice-Dal,205,178,summer_vacation
+2025-05-31,Dinner,Roti-Paneer,161,170,summer_vacation
+2025-06-01,Breakfast,Paratha,148,181,summer_vacation
+2025-06-01,Lunch,Chole Rice,192,204,summer_vacation
+2025-06-01,Dinner,Khichdi,159,155,summer_vacation
+2025-06-02,Breakfast,Upma,146,121,summer_vacation
+2025-06-02,Lunch,Chole Rice,164,175,summer_vacation
+2025-06-02,Dinner,Roti-Paneer,188,194,summer_vacation
+2025-06-03,Breakfast,Idli,191,195,summer_vacation
+2025-06-03,Lunch,Veg Pulao,173,199,summer_vacation
+2025-06-03,Dinner,Roti-Paneer,149,174,summer_vacation
+2025-06-04,Breakfast,Paratha,156,169,summer_vacation
+2025-06-04,Lunch,Rice-Dal,169,166,summer_vacation
+2025-06-04,Dinner,Rice-Egg Curry,163,162,summer_vacation
+2025-06-05,Breakfast,Idli,152,150,summer_vacation
+2025-06-05,Lunch,Rice-Dal,183,165,summer_vacation
+2025-06-05,Dinner,Roti-Sabzi,135,133,summer_vacation
+2025-06-06,Breakfast,Upma,172,166,summer_vacation
+2025-06-06,Lunch,Chole Rice,186,196,summer_vacation
+2025-06-06,Dinner,Rice-Egg Curry,184,205,summer_vacation
+2025-06-07,Breakfast,Paratha,162,166,summer_vacation
+2025-06-07,Lunch,Chole Rice,152,172,summer_vacation
+2025-06-07,Dinner,Khichdi,156,136,summer_vacation
+2025-06-08,Breakfast,Idli,160,157,summer_vacation
+2025-06-08,Lunch,Chole Rice,157,168,summer_vacation
+2025-06-08,Dinner,Roti-Sabzi,176,168,summer_vacation
+2025-06-09,Breakfast,Upma,145,116,summer_vacation
+2025-06-09,Lunch,Rice-Dal,163,157,summer_vacation
+2025-06-09,Dinner,Roti-Sabzi,160,155,summer_vacation
+2025-06-10,Breakfast,Poha,155,135,summer_vacation
+2025-06-10,Lunch,Veg Pulao,161,171,summer_vacation
+2025-06-10,Dinner,Rice-Egg Curry,163,176,summer_vacation
+2025-06-11,Breakfast,Paratha,157,184,summer_vacation
+2025-06-11,Lunch,Rice-Paneer,166,171,summer_vacation
+2025-06-11,Dinner,Roti-Sabzi,188,188,summer_vacation
+2025-06-12,Breakfast,Upma,154,164,summer_vacation
+2025-06-12,Lunch,Rice-Dal,172,169,summer_vacation
+2025-06-12,Dinner,Roti-Paneer,143,149,summer_vacation
+2025-06-13,Breakfast,Poha,165,165,summer_vacation
+2025-06-13,Lunch,Chole Rice,168,188,summer_vacation
+2025-06-13,Dinner,Rice-Egg Curry,162,191,summer_vacation
+2025-06-14,Breakfast,Upma,167,146,summer_vacation
+2025-06-14,Lunch,Rice-Dal,162,187,summer_vacation
+2025-06-14,Dinner,Roti-Sabzi,166,150,summer_vacation
+2025-06-15,Breakfast,Upma,172,179,summer_vacation
+2025-06-15,Lunch,Chole Rice,153,156,summer_vacation
+2025-06-15,Dinner,Rice-Egg Curry,168,173,summer_vacation
+2025-06-16,Breakfast,Upma,170,160,summer_vacation
+2025-06-16,Lunch,Rice-Dal,171,160,summer_vacation
+2025-06-16,Dinner,Khichdi,203,199,summer_vacation
+2025-06-17,Breakfast,Idli,171,161,summer_vacation
+2025-06-17,Lunch,Chole Rice,148,163,summer_vacation
+2025-06-17,Dinner,Roti-Paneer,155,161,summer_vacation
+2025-06-18,Breakfast,Paratha,177,212,summer_vacation
+2025-06-18,Lunch,Rice-Dal,182,187,summer_vacation
+2025-06-18,Dinner,Rice-Egg Curry,170,172,summer_vacation
+2025-06-19,Breakfast,Paratha,168,190,summer_vacation
+2025-06-19,Lunch,Rice-Paneer,179,202,summer_vacation
+2025-06-19,Dinner,Khichdi,163,152,summer_vacation
+2025-06-20,Breakfast,Upma,168,170,summer_vacation
+2025-06-20,Lunch,Rice-Dal,176,199,summer_vacation
+2025-06-20,Dinner,Roti-Sabzi,160,149,summer_vacation
+2025-06-21,Breakfast,Idli,156,165,summer_vacation
+2025-06-21,Lunch,Veg Pulao,166,166,summer_vacation
+2025-06-21,Dinner,Roti-Sabzi,143,140,summer_vacation
+2025-06-22,Breakfast,Idli,176,198,summer_vacation
+2025-06-22,Lunch,Rice-Paneer,173,199,summer_vacation
+2025-06-22,Dinner,Roti-Paneer,148,150,summer_vacation
+2025-06-23,Breakfast,Idli,179,176,summer_vacation
+2025-06-23,Lunch,Rice-Dal,181,159,summer_vacation
+2025-06-23,Dinner,Khichdi,167,163,summer_vacation
+2025-06-24,Breakfast,Poha,153,161,summer_vacation
+2025-06-24,Lunch,Rice-Paneer,198,209,summer_vacation
+2025-06-24,Dinner,Roti-Sabzi,168,173,summer_vacation
+2025-06-25,Breakfast,Idli,148,154,summer_vacation
+2025-06-25,Lunch,Rice-Dal,184,172,summer_vacation
+2025-06-25,Dinner,Rice-Egg Curry,157,169,summer_vacation
+2025-06-26,Breakfast,Paratha,148,161,summer_vacation
+2025-06-26,Lunch,Veg Pulao,160,178,summer_vacation
+2025-06-26,Dinner,Khichdi,181,196,summer_vacation
+2025-06-27,Breakfast,Upma,175,160,summer_vacation
+2025-06-27,Lunch,Veg Pulao,180,209,summer_vacation
+2025-06-27,Dinner,Roti-Sabzi,162,170,summer_vacation
+2025-06-28,Breakfast,Upma,172,166,summer_vacation
+2025-06-28,Lunch,Rice-Paneer,164,198,summer_vacation
+2025-06-28,Dinner,Khichdi,138,121,summer_vacation
+2025-06-29,Breakfast,Poha,176,176,summer_vacation
+2025-06-29,Lunch,Veg Pulao,188,175,summer_vacation
+2025-06-29,Dinner,Roti-Paneer,153,162,summer_vacation
+2025-06-30,Breakfast,Upma,162,156,summer_vacation
+2025-06-30,Lunch,Rice-Paneer,166,163,summer_vacation
+2025-06-30,Dinner,Rice-Egg Curry,180,211,summer_vacation
+2025-07-01,Breakfast,Paratha,433,463,regular
+2025-07-01,Lunch,Rice-Paneer,461,509,regular
+2025-07-01,Dinner,Khichdi,414,393,regular
+2025-07-02,Breakfast,Upma,445,402,regular
+2025-07-02,Lunch,Rice-Paneer,432,489,regular
+2025-07-02,Dinner,Rice-Egg Curry,418,456,regular
+2025-07-03,Breakfast,Idli,385,425,regular
+2025-07-03,Lunch,Rice-Paneer,470,524,regular
+2025-07-03,Dinner,Khichdi,416,364,regular
+2025-07-04,Breakfast,Paratha,430,459,regular
+2025-07-04,Lunch,Chole Rice,436,462,regular
+2025-07-04,Dinner,Roti-Paneer,427,467,regular
+2025-07-05,Breakfast,Paratha,337,362,weekend
+2025-07-05,Lunch,Veg Pulao,344,363,weekend
+2025-07-05,Dinner,Rice-Egg Curry,333,377,weekend
+2025-07-06,Breakfast,Poha,324,321,weekend
+2025-07-06,Lunch,Rice-Paneer,346,361,weekend
+2025-07-06,Dinner,Khichdi,341,308,weekend
+2025-07-07,Breakfast,Idli,449,467,regular
+2025-07-07,Lunch,Veg Pulao,461,509,regular
+2025-07-07,Dinner,Roti-Paneer,419,438,regular
+2025-07-08,Breakfast,Idli,430,448,regular
+2025-07-08,Lunch,Chole Rice,465,491,regular
+2025-07-08,Dinner,Roti-Sabzi,422,421,regular
+2025-07-09,Breakfast,Idli,442,494,regular
+2025-07-09,Lunch,Rice-Paneer,469,511,regular
+2025-07-09,Dinner,Roti-Paneer,438,474,regular
+2025-07-10,Breakfast,Idli,418,449,regular
+2025-07-10,Lunch,Veg Pulao,425,462,regular
+2025-07-10,Dinner,Khichdi,417,394,regular
+2025-07-11,Breakfast,Paratha,437,481,regular
+2025-07-11,Lunch,Rice-Paneer,450,502,regular
+2025-07-11,Dinner,Khichdi,436,406,regular
+2025-07-12,Breakfast,Paratha,316,351,weekend
+2025-07-12,Lunch,Rice-Paneer,379,416,weekend
+2025-07-12,Dinner,Rice-Egg Curry,327,359,weekend
+2025-07-13,Breakfast,Paratha,343,374,weekend
+2025-07-13,Lunch,Chole Rice,338,339,weekend
+2025-07-13,Dinner,Roti-Paneer,319,347,weekend
+2025-07-14,Breakfast,Poha,431,433,regular
+2025-07-14,Lunch,Veg Pulao,457,502,regular
+2025-07-14,Dinner,Roti-Sabzi,398,399,regular
+2025-07-15,Breakfast,Idli,426,426,regular
+2025-07-15,Lunch,Veg Pulao,445,464,regular
+2025-07-15,Dinner,Roti-Paneer,395,418,regular
+2025-07-16,Breakfast,Paratha,392,423,regular
+2025-07-16,Lunch,Rice-Paneer,452,466,regular
+2025-07-16,Dinner,Roti-Sabzi,439,427,regular
+2025-07-17,Breakfast,Upma,416,393,regular
+2025-07-17,Lunch,Rice-Dal,443,435,regular
+2025-07-17,Dinner,Roti-Sabzi,407,417,regular
+2025-07-18,Breakfast,Poha,426,436,regular
+2025-07-18,Lunch,Rice-Dal,465,465,regular
+2025-07-18,Dinner,Rice-Egg Curry,425,471,regular
+2025-07-19,Breakfast,Upma,338,314,weekend
+2025-07-19,Lunch,Veg Pulao,358,417,weekend
+2025-07-19,Dinner,Roti-Sabzi,332,312,weekend
+2025-07-20,Breakfast,Poha,324,310,weekend
+2025-07-20,Lunch,Veg Pulao,337,369,weekend
+2025-07-20,Dinner,Rice-Egg Curry,347,398,weekend
+2025-07-21,Breakfast,Poha,429,460,regular
+2025-07-21,Lunch,Rice-Dal,426,431,regular
+2025-07-21,Dinner,Rice-Egg Curry,431,470,regular
+2025-07-22,Breakfast,Poha,435,444,regular
+2025-07-22,Lunch,Veg Pulao,472,488,regular
+2025-07-22,Dinner,Roti-Sabzi,424,419,regular
+2025-07-23,Breakfast,Idli,405,411,regular
+2025-07-23,Lunch,Rice-Dal,436,445,regular
+2025-07-23,Dinner,Roti-Sabzi,400,384,regular
+2025-07-24,Breakfast,Poha,423,423,regular
+2025-07-24,Lunch,Veg Pulao,446,462,regular
+2025-07-24,Dinner,Roti-Sabzi,422,416,regular
+2025-07-25,Breakfast,Idli,434,451,regular
+2025-07-25,Lunch,Veg Pulao,461,485,regular
+2025-07-25,Dinner,Roti-Sabzi,417,411,regular
+2025-07-26,Breakfast,Idli,326,356,weekend
+2025-07-26,Lunch,Veg Pulao,336,356,weekend
+2025-07-26,Dinner,Roti-Sabzi,333,328,weekend
+2025-07-27,Breakfast,Poha,329,306,weekend
+2025-07-27,Lunch,Chole Rice,352,379,weekend
+2025-07-27,Dinner,Roti-Sabzi,304,315,weekend
+2025-07-28,Breakfast,Upma,423,397,regular
+2025-07-28,Lunch,Veg Pulao,449,483,regular
+2025-07-28,Dinner,Roti-Sabzi,429,408,regular
+2025-07-29,Breakfast,Upma,431,384,regular
+2025-07-29,Lunch,Veg Pulao,451,470,regular
+2025-07-29,Dinner,Rice-Egg Curry,411,432,regular
+2025-07-30,Breakfast,Paratha,431,458,regular
+2025-07-30,Lunch,Veg Pulao,462,483,regular
+2025-07-30,Dinner,Roti-Paneer,405,437,regular
+2025-07-31,Breakfast,Idli,432,452,regular
+2025-07-31,Lunch,Rice-Dal,458,452,regular
+2025-07-31,Dinner,Roti-Sabzi,438,459,regular
+2025-08-01,Breakfast,Upma,429,389,regular
+2025-08-01,Lunch,Chole Rice,427,427,regular
+2025-08-01,Dinner,Roti-Paneer,397,432,regular
+2025-08-02,Breakfast,Upma,312,313,weekend
+2025-08-02,Lunch,Veg Pulao,338,346,weekend
+2025-08-02,Dinner,Rice-Egg Curry,304,334,weekend
+2025-08-03,Breakfast,Upma,337,325,weekend
+2025-08-03,Lunch,Veg Pulao,355,380,weekend
+2025-08-03,Dinner,Rice-Egg Curry,328,349,weekend
+2025-08-04,Breakfast,Poha,414,436,regular
+2025-08-04,Lunch,Chole Rice,436,452,regular
+2025-08-04,Dinner,Khichdi,389,350,regular
+2025-08-05,Breakfast,Upma,427,383,regular
+2025-08-05,Lunch,Rice-Paneer,436,489,regular
+2025-08-05,Dinner,Roti-Paneer,414,436,regular
+2025-08-06,Breakfast,Idli,416,412,regular
+2025-08-06,Lunch,Chole Rice,445,484,regular
+2025-08-06,Dinner,Roti-Paneer,428,473,regular
+2025-08-07,Breakfast,Paratha,421,439,regular
+2025-08-07,Lunch,Rice-Dal,444,458,regular
+2025-08-07,Dinner,Rice-Egg Curry,408,450,regular
+2025-08-08,Breakfast,Upma,416,374,regular
+2025-08-08,Lunch,Veg Pulao,436,468,regular
+2025-08-08,Dinner,Roti-Sabzi,420,437,regular
+2025-08-09,Breakfast,Upma,342,321,weekend
+2025-08-09,Lunch,Rice-Dal,350,367,weekend
+2025-08-09,Dinner,Roti-Paneer,322,359,weekend
+2025-08-10,Breakfast,Poha,325,325,weekend
+2025-08-10,Lunch,Veg Pulao,351,389,weekend
+2025-08-10,Dinner,Khichdi,296,279,weekend
+2025-08-11,Breakfast,Idli,406,427,regular
+2025-08-11,Lunch,Rice-Paneer,441,473,regular
+2025-08-11,Dinner,Rice-Egg Curry,390,417,regular
+2025-08-12,Breakfast,Poha,426,416,regular
+2025-08-12,Lunch,Chole Rice,441,465,regular
+2025-08-12,Dinner,Rice-Egg Curry,425,443,regular
+2025-08-13,Breakfast,Paratha,433,474,regular
+2025-08-13,Lunch,Rice-Dal,445,458,regular
+2025-08-13,Dinner,Roti-Sabzi,413,416,regular
+2025-08-14,Breakfast,Idli,436,462,regular
+2025-08-14,Lunch,Veg Pulao,422,457,regular
+2025-08-14,Dinner,Roti-Paneer,393,427,regular
+2025-08-15,Breakfast,Upma,141,135,holiday
+2025-08-15,Lunch,Rice-Dal,112,116,holiday
+2025-08-15,Dinner,Roti-Sabzi,117,110,holiday
+2025-08-16,Breakfast,Poha,339,336,weekend
+2025-08-16,Lunch,Rice-Dal,370,380,weekend
+2025-08-16,Dinner,Roti-Paneer,320,352,weekend
+2025-08-17,Breakfast,Paratha,345,378,weekend
+2025-08-17,Lunch,Chole Rice,354,361,weekend
+2025-08-17,Dinner,Roti-Sabzi,312,304,weekend
+2025-08-18,Breakfast,Upma,436,419,regular
+2025-08-18,Lunch,Chole Rice,439,456,regular
+2025-08-18,Dinner,Roti-Paneer,416,434,regular
+2025-08-19,Breakfast,Idli,443,453,regular
+2025-08-19,Lunch,Chole Rice,455,467,regular
+2025-08-19,Dinner,Roti-Sabzi,396,389,regular
+2025-08-20,Breakfast,Idli,425,445,regular
+2025-08-20,Lunch,Rice-Dal,431,426,regular
+2025-08-20,Dinner,Khichdi,432,387,regular
+2025-08-21,Breakfast,Idli,411,417,regular
+2025-08-21,Lunch,Chole Rice,464,483,regular
+2025-08-21,Dinner,Rice-Egg Curry,428,472,regular
+2025-08-22,Breakfast,Upma,414,413,regular
+2025-08-22,Lunch,Rice-Paneer,443,494,regular
+2025-08-22,Dinner,Roti-Paneer,409,440,regular
+2025-08-23,Breakfast,Poha,326,327,weekend
+2025-08-23,Lunch,Rice-Dal,342,333,weekend
+2025-08-23,Dinner,Rice-Egg Curry,316,350,weekend
+2025-08-24,Breakfast,Upma,326,313,weekend
+2025-08-24,Lunch,Rice-Paneer,320,345,weekend
+2025-08-24,Dinner,Roti-Paneer,316,329,weekend
+2025-08-25,Breakfast,Idli,414,424,regular
+2025-08-25,Lunch,Rice-Paneer,444,479,regular
+2025-08-25,Dinner,Khichdi,423,389,regular
+2025-08-26,Breakfast,Paratha,409,441,regular
+2025-08-26,Lunch,Rice-Dal,452,454,regular
+2025-08-26,Dinner,Roti-Paneer,401,441,regular
+2025-08-27,Breakfast,Poha,400,398,regular
+2025-08-27,Lunch,Veg Pulao,454,455,regular
+2025-08-27,Dinner,Roti-Sabzi,392,388,regular
+2025-08-28,Breakfast,Idli,422,440,regular
+2025-08-28,Lunch,Veg Pulao,422,466,regular
+2025-08-28,Dinner,Rice-Egg Curry,402,427,regular
+2025-08-29,Breakfast,Paratha,426,469,regular
+2025-08-29,Lunch,Rice-Paneer,437,475,regular
+2025-08-29,Dinner,Khichdi,407,372,regular
+2025-08-30,Breakfast,Upma,340,314,weekend
+2025-08-30,Lunch,Veg Pulao,327,346,weekend
+2025-08-30,Dinner,Khichdi,328,300,weekend
+2025-08-31,Breakfast,Paratha,343,380,weekend
+2025-08-31,Lunch,Veg Pulao,348,349,weekend
+2025-08-31,Dinner,Khichdi,326,295,weekend
+2025-09-01,Breakfast,Upma,435,407,regular
+2025-09-01,Lunch,Rice-Dal,442,445,regular
+2025-09-01,Dinner,Rice-Egg Curry,419,478,regular
+2025-09-02,Breakfast,Upma,407,379,regular
+2025-09-02,Lunch,Rice-Paneer,431,477,regular
+2025-09-02,Dinner,Rice-Egg Curry,400,429,regular
+2025-09-03,Breakfast,Paratha,409,454,regular
+2025-09-03,Lunch,Chole Rice,443,467,regular
+2025-09-03,Dinner,Roti-Paneer,405,422,regular
+2025-09-04,Breakfast,Idli,390,407,regular
+2025-09-04,Lunch,Rice-Paneer,414,455,regular
+2025-09-04,Dinner,Khichdi,413,397,regular
+2025-09-05,Breakfast,Upma,430,403,regular
+2025-09-05,Lunch,Rice-Paneer,426,494,regular
+2025-09-05,Dinner,Roti-Paneer,422,437,regular
+2025-09-06,Breakfast,Idli,336,331,weekend
+2025-09-06,Lunch,Rice-Dal,308,316,weekend
+2025-09-06,Dinner,Khichdi,326,298,weekend
+2025-09-07,Breakfast,Paratha,308,348,weekend
+2025-09-07,Lunch,Rice-Paneer,349,366,weekend
+2025-09-07,Dinner,Roti-Sabzi,317,308,weekend
+2025-09-08,Breakfast,Idli,427,439,regular
+2025-09-08,Lunch,Rice-Dal,430,439,regular
+2025-09-08,Dinner,Rice-Egg Curry,414,447,regular
+2025-09-09,Breakfast,Idli,442,449,regular
+2025-09-09,Lunch,Rice-Dal,448,445,regular
+2025-09-09,Dinner,Khichdi,406,387,regular
+2025-09-10,Breakfast,Upma,395,382,regular
+2025-09-10,Lunch,Chole Rice,447,474,regular
+2025-09-10,Dinner,Khichdi,406,377,regular
+2025-09-11,Breakfast,Paratha,442,464,regular
+2025-09-11,Lunch,Chole Rice,449,486,regular
+2025-09-11,Dinner,Khichdi,395,368,regular
+2025-09-12,Breakfast,Poha,408,402,regular
+2025-09-12,Lunch,Rice-Paneer,442,464,regular
+2025-09-12,Dinner,Khichdi,421,394,regular
+2025-09-13,Breakfast,Poha,332,343,weekend
+2025-09-13,Lunch,Rice-Paneer,341,358,weekend
+2025-09-13,Dinner,Roti-Sabzi,279,262,weekend
+2025-09-14,Breakfast,Upma,341,339,weekend
+2025-09-14,Lunch,Rice-Paneer,329,370,weekend
+2025-09-14,Dinner,Khichdi,325,329,weekend
+2025-09-15,Breakfast,Poha,421,416,regular
+2025-09-15,Lunch,Chole Rice,463,496,regular
+2025-09-15,Dinner,Roti-Sabzi,395,386,regular
+2025-09-16,Breakfast,Upma,419,405,regular
+2025-09-16,Lunch,Veg Pulao,429,452,regular
+2025-09-16,Dinner,Rice-Egg Curry,420,459,regular
+2025-09-17,Breakfast,Idli,413,417,regular
+2025-09-17,Lunch,Veg Pulao,424,458,regular
+2025-09-17,Dinner,Rice-Egg Curry,401,432,regular
+2025-09-18,Breakfast,Upma,422,395,regular
+2025-09-18,Lunch,Veg Pulao,432,471,regular
+2025-09-18,Dinner,Khichdi,422,384,regular
+2025-09-19,Breakfast,Upma,398,379,regular
+2025-09-19,Lunch,Veg Pulao,434,467,regular
+2025-09-19,Dinner,Khichdi,402,365,regular
+2025-09-20,Breakfast,Idli,327,323,weekend
+2025-09-20,Lunch,Veg Pulao,350,362,weekend
+2025-09-20,Dinner,Roti-Paneer,301,318,weekend
+2025-09-21,Breakfast,Poha,320,329,weekend
+2025-09-21,Lunch,Veg Pulao,334,360,weekend
+2025-09-21,Dinner,Roti-Sabzi,310,299,weekend
+2025-09-22,Breakfast,Poha,415,399,regular
+2025-09-22,Lunch,Rice-Paneer,446,499,regular
+2025-09-22,Dinner,Roti-Paneer,390,444,regular
+2025-09-23,Breakfast,Upma,430,404,regular
+2025-09-23,Lunch,Rice-Dal,435,445,regular
+2025-09-23,Dinner,Roti-Paneer,402,441,regular
+2025-09-24,Breakfast,Paratha,417,467,regular
+2025-09-24,Lunch,Rice-Dal,458,449,regular
+2025-09-24,Dinner,Roti-Paneer,390,423,regular
+2025-09-25,Breakfast,Paratha,423,459,regular
+2025-09-25,Lunch,Chole Rice,448,462,regular
+2025-09-25,Dinner,Khichdi,405,379,regular
+2025-09-26,Breakfast,Idli,426,448,regular
+2025-09-26,Lunch,Veg Pulao,449,493,regular
+2025-09-26,Dinner,Rice-Egg Curry,415,441,regular
+2025-09-27,Breakfast,Poha,313,299,weekend
+2025-09-27,Lunch,Rice-Paneer,369,390,weekend
+2025-09-27,Dinner,Roti-Paneer,312,326,weekend
+2025-09-28,Breakfast,Paratha,343,380,weekend
+2025-09-28,Lunch,Veg Pulao,342,359,weekend
+2025-09-28,Dinner,Khichdi,321,289,weekend
+2025-09-29,Breakfast,Paratha,422,464,regular
+2025-09-29,Lunch,Rice-Paneer,450,485,regular
+2025-09-29,Dinner,Rice-Egg Curry,408,444,regular
+2025-09-30,Breakfast,Idli,429,436,regular
+2025-09-30,Lunch,Chole Rice,445,439,regular
+2025-09-30,Dinner,Roti-Sabzi,392,370,regular
+2025-10-01,Breakfast,Paratha,416,447,regular
+2025-10-01,Lunch,Veg Pulao,438,478,regular
+2025-10-01,Dinner,Roti-Paneer,400,429,regular
+2025-10-02,Breakfast,Paratha,110,128,holiday
+2025-10-02,Lunch,Chole Rice,123,131,holiday
+2025-10-02,Dinner,Rice-Egg Curry,117,125,holiday
+2025-10-03,Breakfast,Poha,417,403,regular
+2025-10-03,Lunch,Rice-Dal,438,435,regular
+2025-10-03,Dinner,Roti-Paneer,403,397,regular
+2025-10-04,Breakfast,Idli,307,309,weekend
+2025-10-04,Lunch,Veg Pulao,358,376,weekend
+2025-10-04,Dinner,Roti-Paneer,324,341,weekend
+2025-10-05,Breakfast,Poha,342,359,weekend
+2025-10-05,Lunch,Chole Rice,347,347,weekend
+2025-10-05,Dinner,Roti-Sabzi,309,309,weekend
+2025-10-06,Breakfast,Paratha,387,396,regular
+2025-10-06,Lunch,Rice-Dal,430,447,regular
+2025-10-06,Dinner,Rice-Egg Curry,400,444,regular
+2025-10-07,Breakfast,Paratha,414,452,regular
+2025-10-07,Lunch,Rice-Paneer,459,517,regular
+2025-10-07,Dinner,Roti-Paneer,416,443,regular
+2025-10-08,Breakfast,Poha,421,427,regular
+2025-10-08,Lunch,Chole Rice,436,452,regular
+2025-10-08,Dinner,Khichdi,424,376,regular
+2025-10-09,Breakfast,Poha,426,442,regular
+2025-10-09,Lunch,Rice-Dal,464,447,regular
+2025-10-09,Dinner,Roti-Paneer,432,462,regular
+2025-10-10,Breakfast,Upma,402,381,regular
+2025-10-10,Lunch,Rice-Dal,463,461,regular
+2025-10-10,Dinner,Rice-Egg Curry,417,466,regular
+2025-10-11,Breakfast,Idli,337,323,weekend
+2025-10-11,Lunch,Veg Pulao,350,368,weekend
+2025-10-11,Dinner,Khichdi,310,282,weekend
+2025-10-12,Breakfast,Idli,341,337,weekend
+2025-10-12,Lunch,Veg Pulao,337,371,weekend
+2025-10-12,Dinner,Rice-Egg Curry,300,322,weekend
+2025-10-13,Breakfast,Idli,401,417,regular
+2025-10-13,Lunch,Rice-Dal,445,447,regular
+2025-10-13,Dinner,Rice-Egg Curry,415,416,regular
+2025-10-14,Breakfast,Paratha,401,434,regular
+2025-10-14,Lunch,Rice-Dal,426,422,regular
+2025-10-14,Dinner,Roti-Paneer,433,469,regular
+2025-10-15,Breakfast,Upma,434,422,regular
+2025-10-15,Lunch,Rice-Dal,433,434,regular
+2025-10-15,Dinner,Roti-Sabzi,412,409,regular
+2025-10-16,Breakfast,Paratha,407,451,regular
+2025-10-16,Lunch,Chole Rice,432,444,regular
+2025-10-16,Dinner,Khichdi,410,370,regular
+2025-10-17,Breakfast,Upma,398,371,regular
+2025-10-17,Lunch,Chole Rice,446,447,regular
+2025-10-17,Dinner,Roti-Paneer,389,378,regular
+2025-10-18,Breakfast,Idli,145,156,festival_break
+2025-10-18,Lunch,Rice-Dal,153,141,festival_break
+2025-10-18,Dinner,Roti-Sabzi,143,143,festival_break
+2025-10-19,Breakfast,Poha,137,152,festival_break
+2025-10-19,Lunch,Chole Rice,166,160,festival_break
+2025-10-19,Dinner,Rice-Egg Curry,155,147,festival_break
+2025-10-20,Breakfast,Paratha,138,125,festival_break
+2025-10-20,Lunch,Veg Pulao,157,155,festival_break
+2025-10-20,Dinner,Khichdi,134,134,festival_break
+2025-10-21,Breakfast,Idli,145,152,festival_break
+2025-10-21,Lunch,Rice-Paneer,180,171,festival_break
+2025-10-21,Dinner,Khichdi,118,118,festival_break
+2025-10-22,Breakfast,Upma,154,134,festival_break
+2025-10-22,Lunch,Rice-Paneer,136,178,festival_break
+2025-10-22,Dinner,Roti-Paneer,138,161,festival_break
+2025-10-23,Breakfast,Upma,164,156,festival_break
+2025-10-23,Lunch,Rice-Dal,159,159,festival_break
+2025-10-23,Dinner,Khichdi,143,130,festival_break
+2025-10-24,Breakfast,Idli,139,136,festival_break
+2025-10-24,Lunch,Rice-Paneer,163,184,festival_break
+2025-10-24,Dinner,Roti-Sabzi,131,123,festival_break
+2025-10-25,Breakfast,Paratha,325,348,weekend
+2025-10-25,Lunch,Veg Pulao,349,364,weekend
+2025-10-25,Dinner,Khichdi,308,299,weekend
+2025-10-26,Breakfast,Upma,328,319,weekend
+2025-10-26,Lunch,Veg Pulao,343,360,weekend
+2025-10-26,Dinner,Roti-Sabzi,338,321,weekend
+2025-10-27,Breakfast,Idli,397,396,regular
+2025-10-27,Lunch,Chole Rice,430,443,regular
+2025-10-27,Dinner,Rice-Egg Curry,395,415,regular
+2025-10-28,Breakfast,Paratha,398,416,regular
+2025-10-28,Lunch,Veg Pulao,437,488,regular
+2025-10-28,Dinner,Khichdi,409,397,regular
+2025-10-29,Breakfast,Idli,419,445,regular
+2025-10-29,Lunch,Veg Pulao,443,465,regular
+2025-10-29,Dinner,Roti-Sabzi,408,380,regular
+2025-10-30,Breakfast,Idli,417,441,regular
+2025-10-30,Lunch,Rice-Dal,435,401,regular
+2025-10-30,Dinner,Roti-Paneer,419,447,regular
+2025-10-31,Breakfast,Upma,438,410,regular
+2025-10-31,Lunch,Veg Pulao,455,463,regular
+2025-10-31,Dinner,Roti-Sabzi,398,388,regular
+2025-11-01,Breakfast,Paratha,310,342,weekend
+2025-11-01,Lunch,Rice-Dal,364,360,weekend
+2025-11-01,Dinner,Rice-Egg Curry,318,350,weekend
+2025-11-02,Breakfast,Poha,319,299,weekend
+2025-11-02,Lunch,Rice-Dal,342,326,weekend
+2025-11-02,Dinner,Roti-Paneer,322,338,weekend
+2025-11-03,Breakfast,Paratha,427,481,regular
+2025-11-03,Lunch,Rice-Dal,442,438,regular
+2025-11-03,Dinner,Rice-Egg Curry,429,472,regular
+2025-11-04,Breakfast,Poha,419,416,regular
+2025-11-04,Lunch,Rice-Paneer,442,521,regular
+2025-11-04,Dinner,Khichdi,408,389,regular
+2025-11-05,Breakfast,Paratha,449,478,regular
+2025-11-05,Lunch,Rice-Dal,441,448,regular
+2025-11-05,Dinner,Rice-Egg Curry,416,459,regular
+2025-11-06,Breakfast,Poha,411,390,regular
+2025-11-06,Lunch,Rice-Paneer,423,499,regular
+2025-11-06,Dinner,Roti-Sabzi,420,392,regular
+2025-11-07,Breakfast,Paratha,407,460,regular
+2025-11-07,Lunch,Chole Rice,438,425,regular
+2025-11-07,Dinner,Roti-Sabzi,416,388,regular
+2025-11-08,Breakfast,Upma,329,321,weekend
+2025-11-08,Lunch,Chole Rice,353,352,weekend
+2025-11-08,Dinner,Roti-Paneer,321,324,weekend
+2025-11-09,Breakfast,Paratha,312,332,weekend
+2025-11-09,Lunch,Rice-Dal,340,336,weekend
+2025-11-09,Dinner,Rice-Egg Curry,316,338,weekend
+2025-11-10,Breakfast,Poha,423,419,regular
+2025-11-10,Lunch,Rice-Paneer,418,461,regular
+2025-11-10,Dinner,Khichdi,412,387,regular
+2025-11-11,Breakfast,Poha,410,407,regular
+2025-11-11,Lunch,Rice-Dal,435,436,regular
+2025-11-11,Dinner,Rice-Egg Curry,414,446,regular
+2025-11-12,Breakfast,Idli,425,443,regular
+2025-11-12,Lunch,Rice-Dal,454,463,regular
+2025-11-12,Dinner,Roti-Paneer,412,443,regular
+2025-11-13,Breakfast,Poha,418,392,regular
+2025-11-13,Lunch,Veg Pulao,466,502,regular
+2025-11-13,Dinner,Roti-Sabzi,416,405,regular
+2025-11-14,Breakfast,Upma,451,416,campus_event
+2025-11-14,Lunch,Veg Pulao,483,521,campus_event
+2025-11-14,Dinner,Roti-Paneer,443,488,campus_event
+2025-11-15,Breakfast,Upma,305,296,weekend
+2025-11-15,Lunch,Veg Pulao,331,348,weekend
+2025-11-15,Dinner,Roti-Paneer,326,353,weekend
+2025-11-16,Breakfast,Poha,328,343,weekend
+2025-11-16,Lunch,Veg Pulao,345,363,weekend
+2025-11-16,Dinner,Roti-Sabzi,324,308,weekend
+2025-11-17,Breakfast,Idli,421,438,regular
+2025-11-17,Lunch,Rice-Paneer,441,507,regular
+2025-11-17,Dinner,Roti-Sabzi,413,399,regular
+2025-11-18,Breakfast,Upma,417,371,regular
+2025-11-18,Lunch,Veg Pulao,435,451,regular
+2025-11-18,Dinner,Rice-Egg Curry,420,434,regular
+2025-11-19,Breakfast,Idli,396,413,regular
+2025-11-19,Lunch,Rice-Dal,446,439,regular
+2025-11-19,Dinner,Khichdi,424,405,regular
+2025-11-20,Breakfast,Paratha,408,435,regular
+2025-11-20,Lunch,Rice-Paneer,442,481,regular
+2025-11-20,Dinner,Roti-Sabzi,422,399,regular
+2025-11-21,Breakfast,Upma,413,388,regular
+2025-11-21,Lunch,Veg Pulao,466,492,regular
+2025-11-21,Dinner,Roti-Paneer,417,448,regular
+2025-11-22,Breakfast,Upma,307,292,weekend
+2025-11-22,Lunch,Veg Pulao,357,373,weekend
+2025-11-22,Dinner,Roti-Sabzi,329,314,weekend
+2025-11-23,Breakfast,Upma,310,298,weekend
+2025-11-23,Lunch,Rice-Dal,341,336,weekend
+2025-11-23,Dinner,Rice-Egg Curry,309,327,weekend
+2025-11-24,Breakfast,Upma,432,418,regular
+2025-11-24,Lunch,Chole Rice,428,438,regular
+2025-11-24,Dinner,Roti-Paneer,408,450,regular
+2025-11-25,Breakfast,Upma,436,423,regular
+2025-11-25,Lunch,Rice-Dal,457,459,regular
+2025-11-25,Dinner,Roti-Sabzi,409,392,regular
+2025-11-26,Breakfast,Upma,413,386,regular
+2025-11-26,Lunch,Rice-Paneer,468,515,regular
+2025-11-26,Dinner,Roti-Sabzi,420,415,regular
+2025-11-27,Breakfast,Upma,400,377,regular
+2025-11-27,Lunch,Veg Pulao,452,484,regular
+2025-11-27,Dinner,Roti-Sabzi,414,418,regular
+2025-11-28,Breakfast,Upma,418,365,regular
+2025-11-28,Lunch,Rice-Dal,455,469,regular
+2025-11-28,Dinner,Roti-Paneer,400,422,regular
+2025-11-29,Breakfast,Poha,342,342,weekend
+2025-11-29,Lunch,Veg Pulao,366,393,weekend
+2025-11-29,Dinner,Khichdi,325,305,weekend
+2025-11-30,Breakfast,Upma,333,317,weekend
+2025-11-30,Lunch,Rice-Dal,349,335,weekend
+2025-11-30,Dinner,Khichdi,318,285,weekend
+2025-12-01,Breakfast,Poha,429,419,regular
+2025-12-01,Lunch,Chole Rice,452,457,regular
+2025-12-01,Dinner,Roti-Paneer,385,414,regular
+2025-12-02,Breakfast,Poha,430,427,regular
+2025-12-02,Lunch,Rice-Paneer,443,476,regular
+2025-12-02,Dinner,Khichdi,383,346,regular
+2025-12-03,Breakfast,Paratha,417,466,regular
+2025-12-03,Lunch,Rice-Paneer,456,491,regular
+2025-12-03,Dinner,Rice-Egg Curry,417,449,regular
+2025-12-04,Breakfast,Idli,436,466,regular
+2025-12-04,Lunch,Rice-Dal,436,455,regular
+2025-12-04,Dinner,Khichdi,411,364,regular
+2025-12-05,Breakfast,Idli,435,465,regular
+2025-12-05,Lunch,Rice-Dal,449,429,regular
+2025-12-05,Dinner,Rice-Egg Curry,418,454,regular
+2025-12-06,Breakfast,Paratha,345,364,weekend
+2025-12-06,Lunch,Rice-Dal,345,369,weekend
+2025-12-06,Dinner,Khichdi,339,305,weekend
+2025-12-07,Breakfast,Idli,318,315,weekend
+2025-12-07,Lunch,Chole Rice,343,369,weekend
+2025-12-07,Dinner,Roti-Paneer,328,339,weekend
+2025-12-08,Breakfast,Idli,422,463,regular
+2025-12-08,Lunch,Rice-Dal,457,453,regular
+2025-12-08,Dinner,Roti-Paneer,398,446,regular
+2025-12-09,Breakfast,Paratha,432,461,regular
+2025-12-09,Lunch,Veg Pulao,451,489,regular
+2025-12-09,Dinner,Rice-Egg Curry,382,408,regular
+2025-12-10,Breakfast,Poha,409,404,regular
+2025-12-10,Lunch,Rice-Dal,446,442,regular
+2025-12-10,Dinner,Roti-Sabzi,403,382,regular
+2025-12-11,Breakfast,Paratha,414,463,regular
+2025-12-11,Lunch,Rice-Paneer,460,511,regular
+2025-12-11,Dinner,Roti-Sabzi,418,425,regular
+2025-12-12,Breakfast,Idli,410,427,regular
+2025-12-12,Lunch,Rice-Dal,426,420,regular
+2025-12-12,Dinner,Roti-Sabzi,400,386,regular
+2025-12-13,Breakfast,Idli,327,336,weekend
+2025-12-13,Lunch,Rice-Dal,348,359,weekend
+2025-12-13,Dinner,Rice-Egg Curry,329,376,weekend
+2025-12-14,Breakfast,Upma,336,312,weekend
+2025-12-14,Lunch,Rice-Paneer,341,358,weekend
+2025-12-14,Dinner,Roti-Sabzi,321,319,weekend
+2025-12-15,Breakfast,Paratha,441,469,regular
+2025-12-15,Lunch,Veg Pulao,472,519,regular
+2025-12-15,Dinner,Roti-Paneer,438,481,regular
+2025-12-16,Breakfast,Upma,413,410,regular
+2025-12-16,Lunch,Chole Rice,458,496,regular
+2025-12-16,Dinner,Roti-Sabzi,405,391,regular
+2025-12-17,Breakfast,Upma,427,399,regular
+2025-12-17,Lunch,Rice-Dal,470,464,regular
+2025-12-17,Dinner,Khichdi,400,367,regular
+2025-12-18,Breakfast,Upma,429,417,regular
+2025-12-18,Lunch,Rice-Dal,433,438,regular
+2025-12-18,Dinner,Khichdi,444,421,regular
+2025-12-19,Breakfast,Upma,441,420,regular
+2025-12-19,Lunch,Rice-Dal,446,441,regular
+2025-12-19,Dinner,Roti-Paneer,429,457,regular
+2025-12-20,Breakfast,Upma,345,324,weekend
+2025-12-20,Lunch,Veg Pulao,358,376,weekend
+2025-12-20,Dinner,Roti-Sabzi,305,294,weekend
+2025-12-21,Breakfast,Upma,339,339,weekend
+2025-12-21,Lunch,Rice-Dal,346,351,weekend
+2025-12-21,Dinner,Roti-Paneer,341,346,weekend
+2025-12-22,Breakfast,Idli,438,433,regular
+2025-12-22,Lunch,Veg Pulao,449,475,regular
+2025-12-22,Dinner,Roti-Sabzi,412,397,regular
+2025-12-23,Breakfast,Poha,432,415,regular
+2025-12-23,Lunch,Chole Rice,433,471,regular
+2025-12-23,Dinner,Roti-Paneer,424,451,regular
+2025-12-24,Breakfast,Idli,164,157,winter_break
+2025-12-24,Lunch,Chole Rice,165,172,winter_break
+2025-12-24,Dinner,Khichdi,163,147,winter_break
+2025-12-25,Breakfast,Idli,142,156,winter_break
+2025-12-25,Lunch,Rice-Dal,186,202,winter_break
+2025-12-25,Dinner,Khichdi,146,157,winter_break
+2025-12-26,Breakfast,Idli,186,201,winter_break
+2025-12-26,Lunch,Chole Rice,187,200,winter_break
+2025-12-26,Dinner,Roti-Sabzi,144,126,winter_break
+2025-12-27,Breakfast,Paratha,151,174,winter_break
+2025-12-27,Lunch,Rice-Paneer,181,183,winter_break
+2025-12-27,Dinner,Khichdi,155,156,winter_break
+2025-12-28,Breakfast,Idli,158,164,winter_break
+2025-12-28,Lunch,Veg Pulao,196,203,winter_break
+2025-12-28,Dinner,Khichdi,174,144,winter_break
+2025-12-29,Breakfast,Idli,175,181,winter_break
+2025-12-29,Lunch,Veg Pulao,188,198,winter_break
+2025-12-29,Dinner,Roti-Paneer,181,170,winter_break
+2025-12-30,Breakfast,Upma,178,157,winter_break
+2025-12-30,Lunch,Rice-Dal,188,186,winter_break
+2025-12-30,Dinner,Roti-Sabzi,177,165,winter_break
+2025-12-31,Breakfast,Upma,190,186,winter_break
+2025-12-31,Lunch,Rice-Dal,155,142,winter_break
+2025-12-31,Dinner,Khichdi,170,190,winter_break
