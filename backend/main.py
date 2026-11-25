@@ -5,7 +5,7 @@ from __future__ import annotations
 import io
 import sys
 from contextlib import asynccontextmanager
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any, Dict, List, Optional
 
@@ -63,6 +63,32 @@ def health() -> Dict[str, Any]:
         "status": "ok",
         "selected_model": art.best_model_name,
         "dataset_rows": art.datasets.data_quality_report,
+    }
+
+
+@app.get("/status")
+@app.get("/api/status")
+def status() -> Dict[str, Any]:
+    art = get_artifacts()
+    db_ok = True
+    try:
+        init_db()
+    except Exception:
+        db_ok = False
+    dq = art.datasets.data_quality_report
+    return {
+        "status": "healthy" if db_ok else "degraded",
+        "service": "MessIQ Backend",
+        "version": "1.0.0",
+        "model_loaded": True,
+        "selected_model": art.best_model_name,
+        "database": "connected" if db_ok else "unavailable",
+        "datasets_loaded": {
+            "calendar": dq["calendar_rows"],
+            "meals": dq["meals_rows"],
+            "food_preparation": dq["food_prep_rows"],
+        },
+        "timestamp": datetime.now(timezone.utc).isoformat(),
     }
 
 
