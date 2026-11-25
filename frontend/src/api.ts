@@ -8,7 +8,7 @@ import type {
   WasteAnalyticsResponse,
 } from "./types";
 
-const API_BASE = "";
+const API_BASE = (import.meta.env.VITE_API_BASE as string | undefined)?.replace(/\/$/, "") ?? "";
 
 async function fetchJson<T>(url: string, init?: RequestInit): Promise<T> {
   const res = await fetch(`${API_BASE}${url}`, init);

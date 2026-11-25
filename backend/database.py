@@ -3,12 +3,30 @@
 from __future__ import annotations
 
 import json
+import os
 import sqlite3
+import tempfile
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any, Dict, List
 
-DB_PATH = Path(__file__).resolve().parent / "predictions.db"
+_LOCAL_DB = Path(__file__).resolve().parent / "predictions.db"
+
+
+def _resolve_db_path() -> Path:
+    custom = os.environ.get("MESSIQ_DB_PATH")
+    if custom:
+        return Path(custom)
+    try:
+        _LOCAL_DB.parent.mkdir(parents=True, exist_ok=True)
+        with open(_LOCAL_DB, "a", encoding="utf-8"):
+            pass
+        return _LOCAL_DB
+    except OSError:
+        return Path(tempfile.gettempdir()) / "messiq_predictions.db"
+
+
+DB_PATH = _resolve_db_path()
 
 
 def init_db() -> None:

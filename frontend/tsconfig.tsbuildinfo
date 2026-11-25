@@ -1,1 +1,0 @@
-{"root":["./src/app.tsx","./src/api.ts","./src/main.tsx","./src/types.ts","./src/components/fusionmarks.tsx","./src/components/uiprimitives.tsx","./src/pages/datasetexplorerpage.tsx","./src/pages/foodanalyticspage.tsx","./src/pages/mealpredictorpage.tsx","./src/pages/modelperformancepage.tsx","./src/pages/overviewpage.tsx","./src/pages/wasteanalysispage.tsx"],"version":"5.6.3"}

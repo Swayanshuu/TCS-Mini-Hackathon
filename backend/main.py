@@ -13,7 +13,8 @@ import numpy as np
 import pandas as pd
 from fastapi import FastAPI, HTTPException, Query
 from fastapi.middleware.cors import CORSMiddleware
-from fastapi.responses import StreamingResponse
+from fastapi.responses import FileResponse, StreamingResponse
+from fastapi.staticfiles import StaticFiles
 
 ROOT_DIR = Path(__file__).resolve().parent.parent
 if str(ROOT_DIR) not in sys.path:
@@ -529,4 +530,25 @@ def export_dataset(
         iter([buf.getvalue()]),
         media_type="text/csv",
         headers={"Content-Disposition": f"attachment; filename={dataset_name}_filtered.csv"},
+    )
+
+
+FRONTEND_DIST = ROOT_DIR / "frontend" / "dist"
+if (FRONTEND_DIST / "assets").is_dir():
+    app.mount("/assets", StaticFiles(directory=str(FRONTEND_DIST / "assets")), name="assets")
+
+
+@app.get("/{full_path:path}")
+def serve_spa(full_path: str):
+    if full_path.startswith("api/"):
+        raise HTTPException(status_code=404, detail="API route not found")
+    index_file = FRONTEND_DIST / "index.html"
+    if index_file.is_file():
+        candidate = FRONTEND_DIST / full_path
+        if full_path and candidate.is_file():
+            return FileResponse(candidate)
+        return FileResponse(index_file)
+    raise HTTPException(
+        status_code=404,
+        detail="Frontend build not found. Run `npm run build` in frontend/ or open Vite dev server.",
     )
